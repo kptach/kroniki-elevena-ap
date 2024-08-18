@@ -33,9 +33,9 @@ class Levelsanity(Toggle):
 #    display_name = "Deathlink"
 
 
-fnafb_options: Dict[str, type(Option)] = { 
-    "trade_quest": TradeQuest,
-    "interior_walls": InteriorWalls,
-    "levelsanity": Levelsanity
+#kroniki_elevena_options: Dict[str, type(Option)] = { 
+#    "trade_quest": TradeQuest,
+#    "interior_walls": InteriorWalls,
+#    "levelsanity": Levelsanity
 #    "death_link": DeathLink
-}
+#}

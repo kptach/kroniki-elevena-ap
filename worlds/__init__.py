@@ -3,10 +3,10 @@ from typing import List
 from BaseClasses import Tutorial, Location, LocationProgressType, CollectionState, MultiWorld, ItemClassification
 from worlds.AutoWorld import WebWorld, World
 from .Items import KronikiElevenaItem, KronikiElevenaItemData, get_items_by_category, item_table
-from .Locations import FNaFBLocation, location_table
-from .Options import fnafb_options
+from .Locations import KronikiElevenaLocation, location_table
+from .Options import kroniki_elevena_options
 from .Regions import create_regions
-from .Rules import set_rules
+#from .Rules import set_rules
 
 
 class KronikiElevenaWeb(WebWorld):
@@ -21,12 +21,12 @@ class KronikiElevenaWeb(WebWorld):
     )]
 
 
-class FNaFBWorld(World):
+class KronikiElevenaWorld(World):
     """
     Kroniki Elevena is an RPG game made for Polish youtuber called Eleven and written in's written in Polish, .
     """
     game = "Five Nights at Fuckboy's"
-    option_definitions = fnafb_options
+    #option_definitions = kroniki_elevena_options
     topology_present = True
     data_version = 4
     required_client_version = (0, 4, 5)
@@ -38,8 +38,8 @@ class FNaFBWorld(World):
     def get_setting(self, name: str):
         return getattr(self.multiworld, name)[self.player]
 
-    def fill_slot_data(self) -> dict:
-        return {option_name: self.get_setting(option_name).value for option_name in fnafb_options}
+    #def fill_slot_data(self) -> dict:
+    #    return {option_name: self.get_setting(option_name).value for option_name in kroniki_elevena_options}
 
     def create_items(self):
         item_pool: List[KronikiElevenaItem] = []
@@ -104,5 +104,5 @@ class FNaFBWorld(World):
     def create_regions(self):
         create_regions(self.multiworld, self.player)
 
-    def set_rules(self):
-        set_rules(self.multiworld, self.player)
+    #def set_rules(self):
+    #    set_rules(self.multiworld, self.player)
