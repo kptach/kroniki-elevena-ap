@@ -2,14 +2,14 @@ from typing import List
 
 from BaseClasses import Tutorial, Location, LocationProgressType, CollectionState, MultiWorld, ItemClassification
 from worlds.AutoWorld import WebWorld, World
-from .Items import FNaFBItem, FNaFBItemData, get_items_by_category, item_table
+from .Items import KronikiElevenaItem, KronikiElevenaItemData, get_items_by_category, item_table
 from .Locations import FNaFBLocation, location_table
 from .Options import fnafb_options
 from .Regions import create_regions
 from .Rules import set_rules
 
 
-class FNaFBWeb(WebWorld):
+class KronikiElevenaWeb(WebWorld):
     theme = "partyTime"
     tutorials = [Tutorial(
         "Multiworld Setup Guide",
@@ -30,7 +30,7 @@ class FNaFBWorld(World):
     topology_present = True
     data_version = 4
     required_client_version = (0, 4, 5)
-    web = FNaFBWeb()
+    web = KronikiElevenaWeb()
 
     item_name_to_id = {name: data.code for name, data in item_table.items()}
     location_name_to_id = {name: data.code for name, data in location_table.items()}
@@ -42,13 +42,13 @@ class FNaFBWorld(World):
         return {option_name: self.get_setting(option_name).value for option_name in fnafb_options}
 
     def create_items(self):
-        item_pool: List[FNaFBItem] = []
+        item_pool: List[KronikiElevenaItem] = []
         total_locations = len(self.multiworld.get_unfilled_locations(self.player))
         for name, data in item_table.items():
             quantity = data.max_quantity
             category = data.category
             classification = data.classification
-
+            """
             # Ignore Interior Walls if it's not enabled.
             if name == "Reveal Interior Walls" and not self.get_setting("interior_walls"):
                 continue
@@ -84,6 +84,7 @@ class FNaFBWorld(World):
             # Ignore filler, it will be added in a later stage.
             if data.category == "Filler":
                 continue
+            """
 
             item_pool += [self.create_item(name) for _ in range(0, quantity)]
         while len(item_pool) < total_locations:
@@ -96,9 +97,9 @@ class FNaFBWorld(World):
         weights = [data.weight for data in fillers.values()]
         return self.multiworld.random.choices([filler for filler in fillers.keys()], weights, k=1)[0]
 
-    def create_item(self, name: str) -> FNaFBItem:
+    def create_item(self, name: str) -> KronikiElevenaItem:
         data = item_table[name]
-        return FNaFBItem(name, data.classification, data.code, self.player)
+        return KronikiElevenaItem(name, data.classification, data.code, self.player)
 
     def create_regions(self):
         create_regions(self.multiworld, self.player)
