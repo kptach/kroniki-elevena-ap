@@ -25,6 +25,8 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     # General Checks
     "Pierwsze miasto Dom1 - Skrzynia":                                    KronikiElevenaLocationData("General",   756783_000),
     "Pierwsze miasto Dom4 - Skrzynia":                                    KronikiElevenaLocationData("General",   756783_001),
+    "Pierwsze miasto Dom 5 - grzyby":                                     KronikiElevenaLocationData("General",   756783_010),
+    
     
     
     # Quests
