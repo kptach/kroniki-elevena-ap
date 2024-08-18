@@ -37,7 +37,7 @@ def create_regions(multiworld: MultiWorld, player: int):
 
         "Pierwsze miasto Dom3":                         KronikiElevenaRegionData([]),
 
-        "Pierwsze miasto Dom4":                         KronikiElevenaRegionData([]),
+        "Pierwsze miasto Dom4":                         KronikiElevenaRegionData(["Pierwsze miasto Dom4 - Skrzynia"]),
 
         "Pierwsze miasto Dom 5 - grzyby":               KronikiElevenaRegionData([]),
 
@@ -86,14 +86,14 @@ def create_regions(multiworld: MultiWorld, player: int):
         regions["Levelsanity"].locations.append(levels)
 
     for name, data in regions.items():
-        if name == "Interior Walls" and multiworld.interior_walls[player] == Toggle.option_false:
-            continue
-        if name == "Trade Machine IW" and (multiworld.interior_walls[player] == Toggle.option_false or multiworld.trade_quest[player] == Toggle.option_false):
-            continue
-        if name == "Trade Machine" and multiworld.trade_quest[player] == Toggle.option_false:
-            continue
-        if name == "Levelsanity" and multiworld.levelsanity[player] == Toggle.option_false:
-            continue
+    #     if name == "Interior Walls" and multiworld.interior_walls[player] == Toggle.option_false:
+    #         continue
+    #     if name == "Trade Machine IW" and (multiworld.interior_walls[player] == Toggle.option_false or multiworld.trade_quest[player] == Toggle.option_false):
+    #         continue
+    #     if name == "Trade Machine" and multiworld.trade_quest[player] == Toggle.option_false:
+    #         continue
+    #     if name == "Levelsanity" and multiworld.levelsanity[player] == Toggle.option_false:
+    #         continue
         multiworld.regions.append(create_region(multiworld, player, name, data))
 
 
