@@ -27,7 +27,7 @@ def create_regions(multiworld: MultiWorld, player: int):
 
         "Serek Level":                                  KronikiElevenaRegionData([]),
 
-        "Pierwsze miasto":                              KronikiElevenaRegionData(["Wodospad 1 - Złoty grzyb"]), #TODO
+        "Pierwsze miasto":                              KronikiElevenaRegionData(["Pierwsze miasto Wodospad - Złoty Muchomor"]),
 
         "Dom Elevena (gra)":                            KronikiElevenaRegionData([]),
 
@@ -39,7 +39,13 @@ def create_regions(multiworld: MultiWorld, player: int):
 
         "Pierwsze miasto Dom4":                         KronikiElevenaRegionData(["Pierwsze miasto Dom4 - Skrzynia"]),
 
-        "Pierwsze miasto Dom 5 - grzyby":               KronikiElevenaRegionData(["Pierwsze miasto Dom 5 - grzyby (Chlebek)"]),
+        "Pierwsze miasto Dom 5 - grzyby":               KronikiElevenaRegionData(["Pierwsze miasto Dom 5 - grzyby (Chlebek)",
+                                                                                  "Pierwsze miasto Dom 5 - grzyby (Galaretka)",
+                                                                                  "Pierwsze miasto Dom 5 - grzyby (Slender)",
+                                                                                  "Pierwsze miasto Dom 5 - grzyby (Worms)",
+                                                                                  "Pierwsze miasto Dom 5 - grzyby (Spooky)",
+                                                                                  "Pierwsze miasto Dom 5 - grzyby (Sos grzybowy)"]),
+        
 
         "Pierwsze miasto Dom6":                         KronikiElevenaRegionData([]),
         

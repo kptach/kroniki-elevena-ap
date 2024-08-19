@@ -25,7 +25,14 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     # General Checks
     "Pierwsze miasto Dom1 - Skrzynia":                                    KronikiElevenaLocationData("General",   756783_000),
     "Pierwsze miasto Dom4 - Skrzynia":                                    KronikiElevenaLocationData("General",   756783_001),
-    "Pierwsze miasto Dom 5 - grzyby":                                     KronikiElevenaLocationData("General",   756783_010),
+    "Pierwsze miasto Wodospad - Złoty Muchomor":                          KronikiElevenaLocationData("Quests",   756783_002),
+    
+    "Pierwsze miasto Dom 5 - grzyby (Chlebek)":                           KronikiElevenaLocationData("Quests",   756783_010),
+    "Pierwsze miasto Dom 5 - grzyby (Galaretka)":                         KronikiElevenaLocationData("Quests",   756783_011),
+    "Pierwsze miasto Dom 5 - grzyby (Slender)":                           KronikiElevenaLocationData("Quests",   756783_012),
+    "Pierwsze miasto Dom 5 - grzyby (Worms)":                             KronikiElevenaLocationData("Quests",   756783_013),
+    "Pierwsze miasto Dom 5 - grzyby (Spooky)":                            KronikiElevenaLocationData("Quests",   756783_014),
+    "Pierwsze miasto Dom 5 - grzyby (Sos grzybowy)":                      KronikiElevenaLocationData("Quests",   756783_015),
     
     
     
