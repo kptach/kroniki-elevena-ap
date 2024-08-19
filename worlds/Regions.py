@@ -15,9 +15,7 @@ def create_regions(multiworld: MultiWorld, player: int):
         
         "Dom Elevena":                                  KronikiElevenaRegionData([]),
         
-        "Cyberświat - start":                           KronikiElevenaRegionData([]),
         "Cyberświat - klasy":                           KronikiElevenaRegionData([]),
-        "Endless corridor":                             KronikiElevenaRegionData([]),
         "Cyberświat - walka":                           KronikiElevenaRegionData([]),
         "Cyberświat - partnerzy":                       KronikiElevenaRegionData(["Cyberświat - parnter"]),
 
@@ -33,10 +31,6 @@ def create_regions(multiworld: MultiWorld, player: int):
 
         "Pierwsze miasto Dom1":                         KronikiElevenaRegionData(["Pierwsze miasto Dom1 - Skrzynia"]),
 
-        "Pierwsze miasto Dom2":                         KronikiElevenaRegionData([]),
-
-        "Pierwsze miasto Dom3":                         KronikiElevenaRegionData([]),
-
         "Pierwsze miasto Dom4":                         KronikiElevenaRegionData(["Pierwsze miasto Dom4 - Skrzynia"]),
 
         "Pierwsze miasto Dom 5 - grzyby":               KronikiElevenaRegionData(["Pierwsze miasto Dom 5 - grzyby (Chlebek)",
@@ -44,52 +38,52 @@ def create_regions(multiworld: MultiWorld, player: int):
                                                                                   "Pierwsze miasto Dom 5 - grzyby (Slender)",
                                                                                   "Pierwsze miasto Dom 5 - grzyby (Worms)",
                                                                                   "Pierwsze miasto Dom 5 - grzyby (Spooky)",
-                                                                                  "Pierwsze miasto Dom 5 - grzyby (Sos grzybowy)"]),
+                                                                                  "Pierwsze miasto Dom 5 - grzyby (Sos grzybowy)"])
         
 
-        "Pierwsze miasto Dom6":                         KronikiElevenaRegionData([]),
+        # "Pierwsze miasto Dom6":                         KronikiElevenaRegionData([]),
         
-        "Pierwsze miasto Dom7 - Biblioteka Partner":    KronikiElevenaRegionData([]),
+        # "Pierwsze miasto Dom7 - Biblioteka Partner":    KronikiElevenaRegionData([]),
         
-        "Pierwsze miasto Dom7 - Biblioteka 1P":         KronikiElevenaRegionData([]),
+        # "Pierwsze miasto Dom7 - Biblioteka 1P":         KronikiElevenaRegionData([]),
         
-        "Pierwsze miasto Dom8 - szaman":                KronikiElevenaRegionData([]),
+        # "Pierwsze miasto Dom8 - szaman":                KronikiElevenaRegionData([]),
 
-        "Pierwsze miasto Dom 9 - sklep":                KronikiElevenaRegionData([]),
+        # "Pierwsze miasto Dom 9 - sklep":                KronikiElevenaRegionData([]),
         
-        "Pierwsze miasto Dom 9 - sklep 1F":             KronikiElevenaRegionData([]),
+        # "Pierwsze miasto Dom 9 - sklep 1F":             KronikiElevenaRegionData([]),
         
-        "Jaskinia zagłady":                             KronikiElevenaRegionData([]),
+        # "Jaskinia zagłady":                             KronikiElevenaRegionData([]),
 
-        "Dark room":                                    KronikiElevenaRegionData([]),
+        # "Dark room":                                    KronikiElevenaRegionData([]),
 
-        "Droga Zachodnia(1)":                           KronikiElevenaRegionData([]),
+        # "Droga Zachodnia(1)":                           KronikiElevenaRegionData([]),
 
-        "Droga Zachodnia(1) Namiot":                    KronikiElevenaRegionData([]),
+        # "Droga Zachodnia(1) Namiot":                    KronikiElevenaRegionData([]),
 
-        "Droga Zachodnia(1) Dom1":                      KronikiElevenaRegionData([]),
+        # "Droga Zachodnia(1) Dom1":                      KronikiElevenaRegionData([]),
         
-        "Droga Zachodnia(1) Dom2":                      KronikiElevenaRegionData([])
+        # "Droga Zachodnia(1) Dom2":                      KronikiElevenaRegionData([])
         
     }
 
     # Category hell
-    for supplybb in get_locations_by_category("SupplyClosetBB").keys():
-        regions["Supply Closet BB"].locations.append(supplybb)
-    for cornerbb in get_locations_by_category("EastHallBB").keys():
-        regions["East Hall Corner BB"].locations.append(cornerbb)
-    for restroomsbb in get_locations_by_category("RestroomsBB").keys():
-        regions["Restrooms BB"].locations.append(restroomsbb)
-    for backroombb in get_locations_by_category("BackroomBB").keys():
-        regions["Backroom BB"].locations.append(backroombb)
-    for walls in get_locations_by_category("Walls").keys():
-        regions["Interior Walls"].locations.append(walls)
-    for voucher in get_locations_by_category("Trade").keys():
-        regions["Trade Machine"].locations.append(voucher)
-    for voucheriw in get_locations_by_category("TradeIW").keys():
-        regions["Trade Machine IW"].locations.append(voucheriw)   
-    for levels in get_locations_by_category("Levelsanity").keys():
-        regions["Levelsanity"].locations.append(levels)
+    # for supplybb in get_locations_by_category("SupplyClosetBB").keys():
+    #     regions["Supply Closet BB"].locations.append(supplybb)
+    # for cornerbb in get_locations_by_category("EastHallBB").keys():
+    #     regions["East Hall Corner BB"].locations.append(cornerbb)
+    # for restroomsbb in get_locations_by_category("RestroomsBB").keys():
+    #     regions["Restrooms BB"].locations.append(restroomsbb)
+    # for backroombb in get_locations_by_category("BackroomBB").keys():
+    #     regions["Backroom BB"].locations.append(backroombb)
+    # for walls in get_locations_by_category("Walls").keys():
+    #     regions["Interior Walls"].locations.append(walls)
+    # for voucher in get_locations_by_category("Trade").keys():
+    #     regions["Trade Machine"].locations.append(voucher)
+    # for voucheriw in get_locations_by_category("TradeIW").keys():
+    #     regions["Trade Machine IW"].locations.append(voucheriw)   
+    # for levels in get_locations_by_category("Levelsanity").keys():
+    #     regions["Levelsanity"].locations.append(levels)
 
     for name, data in regions.items():
     #     if name == "Interior Walls" and multiworld.interior_walls[player] == Toggle.option_false:

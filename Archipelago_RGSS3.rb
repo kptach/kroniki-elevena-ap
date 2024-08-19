@@ -186,7 +186,7 @@
         756783051 => "$game_party.add_actor(53)", # Lara Croft
         756783052 => "$game_party.add_actor(54)", # Serek(Wsparcie)
         756783053 => "$game_party.add_actor(55)", # Kaktus mag
-        756783054 => "$game_party.add_actor(58)" # Papyrus
+        756783054 => "$game_party.add_actor(58)"  # Papyrus
 
 
 

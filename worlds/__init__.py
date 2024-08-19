@@ -6,7 +6,7 @@ from .Items import KronikiElevenaItem, KronikiElevenaItemData, get_items_by_cate
 from .Locations import KronikiElevenaLocation, location_table
 from .Options import kroniki_elevena_options
 from .Regions import create_regions
-#from .Rules import set_rules
+from .Rules import set_rules
 
 
 class KronikiElevenaWeb(WebWorld):
@@ -29,7 +29,7 @@ class KronikiElevenaWorld(World):
     option_definitions = kroniki_elevena_options
     topology_present = True
     data_version = 4
-    required_client_version = (0, 4, 5)
+    required_client_version = (0, 5, 0)
     web = KronikiElevenaWeb()
 
     item_name_to_id = {name: data.code for name, data in item_table.items()}
@@ -104,5 +104,5 @@ class KronikiElevenaWorld(World):
     def create_regions(self):
         create_regions(self.multiworld, self.player)
 
-    #def set_rules(self):
-    #    set_rules(self.multiworld, self.player)
+    def set_rules(self):
+        set_rules(self.multiworld, self.player)
