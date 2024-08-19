@@ -161,6 +161,37 @@
         756783026 => "$game_party.add_actor(28)", # Toy Bonnie
         756783027 => "$game_party.add_actor(29)", # Rayman
         756783028 => "$game_party.add_actor(30)", # Kao
+        756783029 => "$game_party.add_actor(31)", # Boogeyman
+        756783030 => "$game_party.add_actor(32)", # Spooky
+        756783031 => "$game_party.add_actor(33)", # Freddy
+        756783032 => "$game_party.add_actor(34)", # Złoty Freddy
+        756783033 => "$game_party.add_actor(35)", # Phantom Foxy
+        756783034 => "$game_party.add_actor(36)", # SCP-049
+        756783035 => "$game_party.add_actor(37)", # Reflux
+        756783036 => "$game_party.add_actor(38)", # Jeff
+        756783037 => "$game_party.add_actor(39)", # Isaac
+        756783038 => "$game_party.add_actor(40)", # Azazel
+        756783039 => "$game_party.add_actor(41)", # Monstro II
+        756783040 => "$game_party.add_actor(42)", # Brzytwobrody
+        756783041 => "$game_party.add_actor(43)", # Fuckboy
+        756783042 => "$game_party.add_actor(44)", # Purple Guy
+        756783043 => "$game_party.add_actor(45)", # BB
+        756783044 => "$game_party.add_actor(46)", # SCP-106
+        756783045 => "$game_party.add_actor(47)", # Kukiełka
+        756783046 => "$game_party.add_actor(48)", # Ultra Greed
+        756783047 => "$game_party.add_actor(49)", # Anim
+        756783048 => "$game_party.add_actor(50)", # Cat Mario
+        756783049 => "$game_party.add_actor(51)", # Indiana
+        756783050 => "$game_party.add_actor(52)", # Serek(Kapłan)
+        756783051 => "$game_party.add_actor(53)", # Lara Croft
+        756783052 => "$game_party.add_actor(54)", # Serek(Wsparcie)
+        756783053 => "$game_party.add_actor(55)", # Kaktus mag
+        756783054 => "$game_party.add_actor(58)" # Papyrus
+
+
+
+
+
 
         
 
