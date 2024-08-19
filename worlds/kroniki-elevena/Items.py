@@ -4,7 +4,7 @@ from BaseClasses import Item, ItemClassification
 
 
 class KronikiElevenaItem(Item):
-    game: str = "Five Nights at Fuckboy's"
+    game: str = "Kroniki Elevena"
 
 
 class KronikiElevenaItemData(NamedTuple):

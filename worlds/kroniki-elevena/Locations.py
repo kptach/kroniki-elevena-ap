@@ -4,7 +4,7 @@ from BaseClasses import Location
 
 
 class KronikiElevenaLocation(Location):
-    game: str = "Five Nights at Fuckboy's"
+    game: str = "Kroniki Elevena"
 
 
 class KronikiElevenaLocationData(NamedTuple):

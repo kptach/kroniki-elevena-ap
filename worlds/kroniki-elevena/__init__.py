@@ -87,15 +87,9 @@ class KronikiElevenaWorld(World):
             """
 
             item_pool += [self.create_item(name) for _ in range(0, quantity)]
-        while len(item_pool) < total_locations:
-            item_pool.append(self.create_item(self.get_filler_item_name()))
+
 
         self.multiworld.itempool += item_pool
-
-    def get_filler_item_name(self) -> str:
-        fillers = get_items_by_category("Filler")
-        weights = [data.weight for data in fillers.values()]
-        return self.multiworld.random.choices([filler for filler in fillers.keys()], weights, k=1)[0]
 
     def create_item(self, name: str) -> KronikiElevenaItem:
         data = item_table[name]
