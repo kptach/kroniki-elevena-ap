@@ -2,28 +2,27 @@ from typing import Dict
 from Options import Choice, Range, Option, Toggle, DeathLink, DefaultOnToggle, OptionSet
 
 
-class TradeQuest(Toggle):
+class Kontroler(Toggle):
     """
-    Includes RNG Trade Item drops in the randomizer.
-    (Adds 4 locations, or 8 if Interior Walls is also enabled.)
+    Includes the Kontroler in the randomizer which is a Key item.
     """
-    display_name = "Include Trade Checks"
+    display_name = "Include Kontroler"
 
 
-class InteriorWalls(Toggle):
+#class InteriorWalls(Toggle):
     """
     Includes Interior Walls in the randomizer.
     (Adds 30 locations.)
     """
-    display_name = "Include Interior Walls"
+#    display_name = "Include Interior Walls"
 
 
-class Levelsanity(Toggle):
+#class Levelsanity(Toggle):
     """
     Includes each level up as an item location.
     (Adds 80 locations.)
     """
-    display_name = "Include Levelsanity"
+#    display_name = "Include Levelsanity"
 
 
 #class DeathLink(Toggle):
@@ -33,9 +32,9 @@ class Levelsanity(Toggle):
 #    display_name = "Deathlink"
 
 
-#kroniki_elevena_options: Dict[str, type(Option)] = { 
-#    "trade_quest": TradeQuest,
+kroniki_elevena_options: Dict[str, type(Option)] = { 
+    "kontroler": Kontroler,
 #    "interior_walls": InteriorWalls,
 #    "levelsanity": Levelsanity
 #    "death_link": DeathLink
-#}
+}

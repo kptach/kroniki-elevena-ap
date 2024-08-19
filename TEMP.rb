@@ -9,3 +9,11 @@ Udało ci się? Masz Złociaka? \!
 Super! Proszę, oto obiecany przeze mnie
 \i[623] \c[1]Item Archipelago\c[0].
 \n<Kobieta>
+
+
+\c[1]Item Archipelago\c[0]\fr
+\c[20]Item typu \c[1]Archipelago.
+\c[18]Brak słabości.
+\c[3]Brak zalet.
+
+\n<Marcin>Czyli co, wybierasz \c[1]Item Archipelago\c[0]?

@@ -19,7 +19,7 @@ def create_regions(multiworld: MultiWorld, player: int):
         "Cyberświat - klasy":                           KronikiElevenaRegionData([]),
         "Endless corridor":                             KronikiElevenaRegionData([]),
         "Cyberświat - walka":                           KronikiElevenaRegionData([]),
-        "Cyberświat - partnerzy":                       KronikiElevenaRegionData([]),
+        "Cyberświat - partnerzy":                       KronikiElevenaRegionData(["Cyberświat - parnter"]),
 
         "Eleven Level":                                 KronikiElevenaRegionData([]),
         

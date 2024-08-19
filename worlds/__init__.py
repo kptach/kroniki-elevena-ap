@@ -15,9 +15,9 @@ class KronikiElevenaWeb(WebWorld):
         "Multiworld Setup Guide",
         "A guide to setting up the Kroniki Elevena client for use with Archipelago.",
         "English",
-        "fnafb_en.md",
-        "fnafb/en",
-        ["Scrungip"]
+        "kronikielevena_en.md",
+        "kronkikelevena/en",
+        ["fredzio2006"]
     )]
 
 
