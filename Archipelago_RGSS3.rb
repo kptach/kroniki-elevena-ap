@@ -198,7 +198,7 @@ receiveditem_methods = {
     756783061 => "$game_party.gain_item($data_items[23], 1)", # Karta klucz V
     756783062 => "$game_party.gain_item($data_items[46], 1)", # Przenośny teleport
     756783063 => "$game_party.gain_item($data_items[55], 1)", # Kartka papieru
-    756783064 => "$game_party.gain_item($data_items[58], 1)", # Tajemnicza część
+    756783064 => "$game_party.gain_item($data_items[58], 1)", # Tajemnicza część # idk what to do with it
     756783065 => "$game_party.gain_item($data_items[62], 1)", # Buty Laury
     756783066 => "$game_party.gain_item($data_items[68], 1)", # Dysk do rzucania
     756783067 => "$game_party.gain_item($data_items[70], 1)", # Złoty klucz
@@ -206,13 +206,14 @@ receiveditem_methods = {
     756783069 => "$game_party.gain_item($data_items[73], 1)", # Ołówek i gumka
     756783070 => "$game_party.gain_item($data_items[74], 1)", # Antygrawitacyjne buty
     756783071 => "$game_party.gain_item($data_items[16], 1)", # Klucz
-    756783072 => "$game_party.gain_item($data_items[56], 1)", # Doggo
+    756783072 => "$game_party.gain_item($data_items[56], 1)", # Doggo # idk what to do with it
 
 
     #756783071 => "$game_party.gain_item($data_items[100], 1)", # Diamentowy pierścionek
     #756783071 => "$game_party.gain_item($data_items[10], 1)", # Krótkofalówka(Always)
     #756783071 => "$game_party.gain_item($data_items[11], 1)", # Krótkofalówka(Only in battle)
     #756783071 => "$game_party.gain_item($data_items[17], 5)", # Diament
+    #756783071 => "$game_party.gain_item($data_items[36], 4)", # Jad Venesosa Planta # I forgot to add
 
     # Quest Items
     756783072 => "$game_party.gain_item($data_items[4], 5)",  # Złoty grzyb
@@ -228,11 +229,84 @@ receiveditem_methods = {
     756783080 => "$game_party.gain_item($data_items[13], 10)", # Niebieski lum
     756783081 => "$game_party.gain_item($data_items[14], 10)", # Żółty lum
     756783082 => "$game_party.gain_item($data_items[15], 15)", # Marchewka
-    756783083 => "$game_party.gain_item($data_items[24], 1)",  # Srebrny klucz
+    756783083 => "$game_party.gain_item($data_items[24], 10)", # Srebrny klucz # idk what to do with it
     756783084 => "$game_party.gain_item($data_items[25], 15)", # Pomidor
     756783085 => "$game_party.gain_item($data_items[26], 15)", # Koniczyna
-    756783086 => "$game_party.gain_item($data_items[27], 15)" # Pikantna papryka
-    #TODO
+    756783086 => "$game_party.gain_item($data_items[27], 15)", # Pikantna papryka
+    756783087 => "$game_party.gain_item($data_items[44], 15)", # Cytryna
+    756783088 => "$game_party.gain_item($data_items[45], 15)", # Wyciąg z kaktusa
+    756783089 => "$game_party.gain_item($data_items[47], 5)",  # Penizol
+    756783090 => "$game_party.gain_item($data_items[48], 10)", # Prezent
+    756783091 => "$game_party.gain_item($data_items[49], 10)", # Mała ognista bomba
+    756783092 => "$game_party.gain_item($data_items[50], 10)", # Duża ognista bomba
+    756783093 => "$game_party.gain_item($data_items[51], 10)", # Mała wodna bomba
+    756783094 => "$game_party.gain_item($data_items[52], 10)", # Duża wodna bomba
+    756783095 => "$game_party.gain_item($data_items[53], 10)", # Mała ziemna bomba
+    756783096 => "$game_party.gain_item($data_items[54], 10)", # Duża ziemna bomba
+    756783097 => "$game_party.gain_item($data_items[57], 10)", # Smocza miłość
+    756783098 => "$game_party.gain_item($data_items[59], 10)", # Meteoryt ataku
+    756783099 => "$game_party.gain_item($data_items[60], 10)", # Meteoryt magii
+    756783100 => "$game_party.gain_item($data_items[61], 10)", # Meteoryt szybkości
+    756783101 => "$game_party.gain_item($data_items[63], 10)", # Mikstura zdrowia
+    756783102 => "$game_party.gain_item($data_items[64], 10)", # Mikstura energii
+    756783103 => "$game_party.gain_item($data_items[65], 10)", # Płynny szał
+    756783104 => "$game_party.gain_item($data_items[66], 15)", # Gwiezdne Chrupki
+    756783105 => "$game_party.gain_item($data_items[67], 10)", # Psia kupa
+    756783106 => "$game_party.gain_item($data_items[69], 15)", # Kokarda Tarkopsa
+    756783107 => "$game_party.gain_item($data_items[71], 5)",  # Płatek róży
+    756783108 => "$game_party.gain_item($data_items[88], 5)",  # Płatek Tem
+    756783109 => "$game_party.gain_item($data_items[89], 5)",  # Płatek Tem (wyprzedaż)
+    756783110 => "$game_party.gain_item($data_items[90], 5)",  # Płatek Tem (zatruty)
+    756783111 => "$game_party.gain_item($data_items[91], 10)", # Klejnot many
+    756783112 => "$game_party.gain_item($data_items[92], 10)", # Klejnot cyberpunktów
+    756783113 => "$game_party.gain_item($data_items[93], 10)", # Klejnot obrażeń
+    756783114 => "$game_party.gain_item($data_items[94], 10)", # Klejnot życia
+    756783115 => "$game_party.gain_item($data_items[95], 10)", # Klejnot ruchu
+    756783116 => "$game_party.gain_item($data_items[96], 10)", # Olbrzymia ognista bomba
+    756783117 => "$game_party.gain_item($data_items[97], 10)", # Gwiezdne Chrupki XL
+    756783118 => "$game_party.gain_item($data_items[98], 10)", # Spaghetti
+    756783119 => "$game_party.gain_item($data_items[99], 5)",  # Klejnot żywiołów
+    756783120 => "$game_party.gain_item($data_items[101], 5)", # Babeczka
+
+    # Key Items 2
+    756783121 => "$game_party.gain_item($data_items[36], 4)", # Jad Venesosa Planta
+
+    # Key Items(Dwienków)
+    756783122 => "$game_party.gain_item($data_items[37], 1)", # Świeczka
+    756783123 => "$game_party.gain_item($data_items[38], 1)", # Info. o skrzyni
+    756783124 => "$game_party.gain_item($data_items[39], 1)", # Info. o książkach
+    756783125 => "$game_party.gain_item($data_items[40], 1)", # Info. o kominku
+    756783126 => "$game_party.gain_item($data_items[41], 1)", # Materiał
+    756783127 => "$game_party.gain_item($data_items[42], 1)", # Odcisk stopy
+    756783128 => "$game_party.gain_item($data_items[43], 1)", # Info. o diamencie
+
+    # Key Items(Snowdin)
+    756783129 => "$game_party.gain_item($data_items[83], 1)", # Zeznania Blooka
+    756783130 => "$game_party.gain_item($data_items[84], 1)", # Zeznania Snowdrake'a
+    756783131 => "$game_party.gain_item($data_items[85], 1)", # Zielony materiał
+    756783132 => "$game_party.gain_item($data_items[86], 1)", # Lodowy kolec
+    756783133 => "$game_party.gain_item($data_items[87], 1)", # Miejsce zbrodni
+
+    # Kapsuły
+    756783134 => "$game_party.gain_item($data_items[28], 1)", # Kapsuła Plush Foxy'ego
+    756783135 => "$game_party.gain_item($data_items[29], 1)", # Kapsuła Hatera
+    756783136 => "$game_party.gain_item($data_items[30], 1)", # Kapsuła Dingle'a
+    756783137 => "$game_party.gain_item($data_items[31], 1)", # Kapsuła Alex'a
+    756783138 => "$game_party.gain_item($data_items[32], 1)", # Kapsuła Złotego Freddy'ego
+    756783139 => "$game_party.gain_item($data_items[33], 1)", # Kapsuła Kangurka Kao
+    756783140 => "$game_party.gain_item($data_items[34], 1)", # Kapsuła Fuckboy'a
+    756783141 => "$game_party.gain_item($data_items[35], 1)", # Kapsuła Anima
+    756783142 => "$game_party.gain_item($data_items[75], 1)", # Kapsuła Turreta
+    756783143 => "$game_party.gain_item($data_items[76], 1)", # Kapsuła Mrokluma
+    756783144 => "$game_party.gain_item($data_items[77], 1)", # Kapsuła Andre
+    756783145 => "$game_party.gain_item($data_items[78], 1)", # Kapsuła Specimena 2
+    756783146 => "$game_party.gain_item($data_items[79], 1)", # Kapsuła Foxy'ego
+    756783147 => "$game_party.gain_item($data_items[80], 1)", # Kapsuła Jeffa
+    756783148 => "$game_party.gain_item($data_items[81], 1)", # Kapsuła Kukiełki
+    756783149 => "$game_party.gain_item($data_items[82], 1)" # Kapsuła Ultra Greeda
+
+
+    
 }
 #==============================================================================
 # ** ADVANCED
