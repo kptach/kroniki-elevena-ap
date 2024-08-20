@@ -198,7 +198,7 @@ receiveditem_methods = {
     756783061 => "$game_party.gain_item($data_items[23], 1)", # Karta klucz V
     756783062 => "$game_party.gain_item($data_items[46], 1)", # Przenośny teleport
     756783063 => "$game_party.gain_item($data_items[55], 1)", # Kartka papieru
-    756783064 => "$game_party.gain_item($data_items[58], 1)", # Tajemnicza część # idk what to do with it
+    756783064 => "$game_party.gain_item($data_items[58], 10)", # Tajemnicza część # idk how many there are
     756783065 => "$game_party.gain_item($data_items[62], 1)", # Buty Laury
     756783066 => "$game_party.gain_item($data_items[68], 1)", # Dysk do rzucania
     756783067 => "$game_party.gain_item($data_items[70], 1)", # Złoty klucz
@@ -206,11 +206,6 @@ receiveditem_methods = {
     756783069 => "$game_party.gain_item($data_items[73], 1)", # Ołówek i gumka
     756783070 => "$game_party.gain_item($data_items[74], 1)", # Antygrawitacyjne buty
     756783071 => "$game_party.gain_item($data_items[16], 1)", # Klucz
-
-
-    #756783071 => "$game_party.gain_item($data_items[100], 1)", # Diamentowy pierścionek
-    #756783071 => "$game_party.gain_item($data_items[11], 1)", # Krótkofalówka(Only in battle) i think it's not needed
-    #756783071 => "$game_party.gain_item($data_items[17], 5)", # Diament
 
     # Quest Items
     756783072 => "$game_party.gain_item($data_items[4], 5)",  # Złoty grzyb
@@ -307,6 +302,19 @@ receiveditem_methods = {
 
     # Key Items 3
     756783151 => "$game_party.gain_item($data_items[56], 1)" # Doggo # idk what to do with it
+
+
+
+
+
+
+
+
+    # Other Items
+    #756783071 => "$game_party.gain_item($data_items[100], 1)",# Diamentowy pierścionek
+    #756783071 => "$game_party.gain_item($data_items[11], 1)", # Krótkofalówka(Only in battle) i think it's not needed
+    #756783071 => "$game_party.gain_item($data_items[17], 5)", # Diament
+    #756783071 => "$game_party.gain_item($data_items[19], 2)", # Dusza
 
     
 }
