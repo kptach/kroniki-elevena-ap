@@ -186,16 +186,53 @@ receiveditem_methods = {
     756783051 => "$game_party.add_actor(53)", # Lara Croft
     756783052 => "$game_party.add_actor(54)", # Serek(Wsparcie)
     756783053 => "$game_party.add_actor(55)", # Kaktus mag
-    756783054 => "$game_party.add_actor(58)"  # Papyrus
+    756783054 => "$game_party.add_actor(58)", # Papyrus
+
+    # Key Items
+    756783055 => "$game_party.gain_item($data_items[1], 1)",  # Kontroler
+    756783056 => "$game_party.gain_item($data_items[2], 1)",  # Telefon
+    756783057 => "$game_party.gain_item($data_items[3], 1)",  # Siekiera
+    756783058 => "$game_party.gain_item($data_items[18], 1)", # Młotek
+    756783059 => "$game_party.gain_item($data_items[21], 1)", # Karta klucz I
+    756783060 => "$game_party.gain_item($data_items[22], 1)", # Karta klucz II
+    756783061 => "$game_party.gain_item($data_items[23], 1)", # Karta klucz V
+    756783062 => "$game_party.gain_item($data_items[46], 1)", # Przenośny teleport
+    756783063 => "$game_party.gain_item($data_items[55], 1)", # Kartka papieru
+    756783064 => "$game_party.gain_item($data_items[58], 1)", # Tajemnicza część
+    756783065 => "$game_party.gain_item($data_items[62], 1)", # Buty Laury
+    756783066 => "$game_party.gain_item($data_items[68], 1)", # Dysk do rzucania
+    756783067 => "$game_party.gain_item($data_items[70], 1)", # Złoty klucz
+    756783068 => "$game_party.gain_item($data_items[72], 1)", # Guziczek
+    756783069 => "$game_party.gain_item($data_items[73], 1)", # Ołówek i gumka
+    756783070 => "$game_party.gain_item($data_items[74], 1)", # Antygrawitacyjne buty
+    756783071 => "$game_party.gain_item($data_items[16], 1)", # Klucz
+    756783072 => "$game_party.gain_item($data_items[56], 1)", # Doggo
 
 
+    #756783071 => "$game_party.gain_item($data_items[100], 1)", # Diamentowy pierścionek
+    #756783071 => "$game_party.gain_item($data_items[10], 1)", # Krótkofalówka(Always)
+    #756783071 => "$game_party.gain_item($data_items[11], 1)", # Krótkofalówka(Only in battle)
+    #756783071 => "$game_party.gain_item($data_items[17], 5)", # Diament
 
+    # Quest Items
+    756783072 => "$game_party.gain_item($data_items[4], 5)",  # Złoty grzyb
+    756783073 => "$game_party.gain_item($data_items[20], 1)", # Sos grzybowy
 
-
-
-    
-
-    
+    # Fillers
+    756783074 => "$game_party.gain_item($data_items[5], 15)",  # Jabłko
+    756783075 => "$game_party.gain_item($data_items[6], 15)",  # Winoogrono
+    756783076 => "$game_party.gain_item($data_items[7], 15)",  # Mandarynka
+    756783077 => "$game_party.gain_item($data_items[8], 15)",  # Wiśnie
+    756783078 => "$game_party.gain_item($data_items[9], 15)",  # Zioła
+    756783079 => "$game_party.gain_item($data_items[12], 10)", # Czerwony lum
+    756783080 => "$game_party.gain_item($data_items[13], 10)", # Niebieski lum
+    756783081 => "$game_party.gain_item($data_items[14], 10)", # Żółty lum
+    756783082 => "$game_party.gain_item($data_items[15], 15)", # Marchewka
+    756783083 => "$game_party.gain_item($data_items[24], 1)",  # Srebrny klucz
+    756783084 => "$game_party.gain_item($data_items[25], 15)", # Pomidor
+    756783085 => "$game_party.gain_item($data_items[26], 15)", # Koniczyna
+    756783086 => "$game_party.gain_item($data_items[27], 15)" # Pikantna papryka
+    #TODO
 }
 #==============================================================================
 # ** ADVANCED

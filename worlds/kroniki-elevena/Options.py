@@ -2,7 +2,7 @@ from typing import Dict
 from Options import Choice, Range, Option, Toggle, DeathLink, DefaultOnToggle, OptionSet
 
 
-class Kontroler(Toggle):
+class Kontroler(Toggle): #TODO
     """
     Includes the Kontroler in the randomizer which is a Key item.
     """
