@@ -13,7 +13,7 @@ def create_regions(multiworld: MultiWorld, player: int):
     regions: Dict[str, KronikiElevenaRegionData] = {
         "Menu":                                         KronikiElevenaRegionData(None),
         
-        "Dom Elevena":                                  KronikiElevenaRegionData([]),
+        "Dom Elevena":                                  KronikiElevenaRegionData(["Dom Elevena - List"]),
         
         "Cyberświat - klasy":                           KronikiElevenaRegionData([]),
         "Cyberświat - walka":                           KronikiElevenaRegionData([]),
@@ -27,7 +27,19 @@ def create_regions(multiworld: MultiWorld, player: int):
 
         "Pierwsze miasto":                              KronikiElevenaRegionData(["Pierwsze miasto Wodospad - Złoty Muchomor"]),
 
-        "Dom Elevena (gra)":                            KronikiElevenaRegionData([]),
+        "Dom Elevena (gra)":                            KronikiElevenaRegionData(["Dom Elevena (gra) - karta1",
+                                                                                  "Dom Elevena (gra) - karta2",
+                                                                                  "Dom Elevena (gra) - karta3",
+                                                                                  "Dom Elevena (gra) - jedzenie1",
+                                                                                  "Dom Elevena (gra) - jedzenie2",
+                                                                                  "Dom Elevena (gra) - jedzenie3",
+                                                                                  "Dom Elevena (gra) - jedzenie4",
+                                                                                  "Dom Elevena (gra) - jedzenie5",
+                                                                                  "Dom Elevena (gra) - jedzenie6",
+                                                                                  "Dom Elevena (gra) - jedzenie7",
+                                                                                  "Dom Elevena (gra) - jedzenie8",
+                                                                                  "Dom Elevena (gra) - jedzenie9",
+                                                                                  "Dom Elevena (gra) - jedzenie10"]),
 
         "Pierwsze miasto Dom1":                         KronikiElevenaRegionData(["Pierwsze miasto Dom1 - Skrzynia"]),
 
@@ -38,7 +50,12 @@ def create_regions(multiworld: MultiWorld, player: int):
                                                                                   "Pierwsze miasto Dom 5 - grzyby (Slender)",
                                                                                   "Pierwsze miasto Dom 5 - grzyby (Worms)",
                                                                                   "Pierwsze miasto Dom 5 - grzyby (Spooky)",
-                                                                                  "Pierwsze miasto Dom 5 - grzyby (Sos grzybowy)"])
+                                                                                  "Pierwsze miasto Dom 5 - grzyby (Sos grzybowy)"]),
+        
+        "Pierwsze miasto Dom 9 - sklep":                KronikiElevenaRegionData([]),
+        "Pierwsze miasto Dom 9 - sklep 1F":             KronikiElevenaRegionData([]),
+        
+        "Jaskinia zagłady":                             KronikiElevenaRegionData([]),
         
 
         # "Pierwsze miasto Dom6":                         KronikiElevenaRegionData([]),
