@@ -206,14 +206,11 @@ receiveditem_methods = {
     756783069 => "$game_party.gain_item($data_items[73], 1)", # Ołówek i gumka
     756783070 => "$game_party.gain_item($data_items[74], 1)", # Antygrawitacyjne buty
     756783071 => "$game_party.gain_item($data_items[16], 1)", # Klucz
-    756783072 => "$game_party.gain_item($data_items[56], 1)", # Doggo # idk what to do with it
 
 
     #756783071 => "$game_party.gain_item($data_items[100], 1)", # Diamentowy pierścionek
-    #756783071 => "$game_party.gain_item($data_items[10], 1)", # Krótkofalówka(Always)
-    #756783071 => "$game_party.gain_item($data_items[11], 1)", # Krótkofalówka(Only in battle)
+    #756783071 => "$game_party.gain_item($data_items[11], 1)", # Krótkofalówka(Only in battle) i think it's not needed
     #756783071 => "$game_party.gain_item($data_items[17], 5)", # Diament
-    #756783071 => "$game_party.gain_item($data_items[36], 4)", # Jad Venesosa Planta # I forgot to add
 
     # Quest Items
     756783072 => "$game_party.gain_item($data_items[4], 5)",  # Złoty grzyb
@@ -303,8 +300,13 @@ receiveditem_methods = {
     756783146 => "$game_party.gain_item($data_items[79], 1)", # Kapsuła Foxy'ego
     756783147 => "$game_party.gain_item($data_items[80], 1)", # Kapsuła Jeffa
     756783148 => "$game_party.gain_item($data_items[81], 1)", # Kapsuła Kukiełki
-    756783149 => "$game_party.gain_item($data_items[82], 1)" # Kapsuła Ultra Greeda
+    756783149 => "$game_party.gain_item($data_items[82], 1)", # Kapsuła Ultra Greeda
 
+    # Krótkofalówka
+    756783150 => "$game_party.gain_item($data_items[10], 1)", # Krótkofalówka
+
+    # Key Items 3
+    756783151 => "$game_party.gain_item($data_items[56], 1)" # Doggo # idk what to do with it
 
     
 }
