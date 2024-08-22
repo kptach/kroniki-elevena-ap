@@ -190,7 +190,7 @@ receiveditem_methods = {
 
     # Key Items
     756783055 => "$game_party.gain_item($data_items[1], 1)",  # Kontroler
-    756783056 => "$game_party.gain_item($data_items[2], 1)",  # Telefon
+    756783056 => "$game_party.gain_item($data_items[10], 1)", # Krótkofalówka
     756783057 => "$game_party.gain_item($data_items[3], 1)",  # Siekiera
     756783058 => "$game_party.gain_item($data_items[18], 1)", # Młotek
     756783059 => "$game_party.gain_item($data_items[21], 1)", # Karta klucz I
@@ -297,8 +297,8 @@ receiveditem_methods = {
     756783148 => "$game_party.gain_item($data_items[81], 1)", # Kapsuła Kukiełki
     756783149 => "$game_party.gain_item($data_items[82], 1)", # Kapsuła Ultra Greeda
 
-    # Krótkofalówka
-    756783150 => "$game_party.gain_item($data_items[10], 1)", # Krótkofalówka
+    # Telefon
+    756783150 => "$game_party.gain_item($data_items[2], 1)", # Telefon
 
     # Key Items 3
     756783151 => "$game_party.gain_item($data_items[56], 1)" # Doggo # idk what to do with it
