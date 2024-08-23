@@ -92,7 +92,7 @@ item_table: Dict[str, KronikiElevenaItemData] = {
     "Karta klucz V":             KronikiElevenaItemData("Progressive",   756783_061, ItemClassification.progression),
     "Przenośny teleport":        KronikiElevenaItemData("Progressive",   756783_062, ItemClassification.progression),
     "Kartka papieru":            KronikiElevenaItemData("Progressive",   756783_063, ItemClassification.progression),
-    "Tajemnicza część":          KronikiElevenaItemData("Quest",         756783_064, ItemClassification.progression),
+    "Tajemnicza część":          KronikiElevenaItemData("Quest",         756783_064, ItemClassification.progression,           4),
     "Buty Laury":                KronikiElevenaItemData("Progressive",   756783_065, ItemClassification.progression),
     "Dysk do rzucania":          KronikiElevenaItemData("Progressive",   756783_066, ItemClassification.progression),
     "Złoty klucz":               KronikiElevenaItemData("Progressive",   756783_067, ItemClassification.progression),
@@ -102,7 +102,7 @@ item_table: Dict[str, KronikiElevenaItemData] = {
     "Klucz":                     KronikiElevenaItemData("Progressive",   756783_071, ItemClassification.progression),
     
     # Quest Items
-    "Złoty grzyb":               KronikiElevenaItemData("Quest",         756783_072, ItemClassification.progression),
+    "Złoty grzyb":               KronikiElevenaItemData("Quest",         756783_072, ItemClassification.progression,           5),
     "Sos grzybowy":              KronikiElevenaItemData("Quest",         756783_073, ItemClassification.useful),
     
     # Fillers
@@ -174,26 +174,31 @@ item_table: Dict[str, KronikiElevenaItemData] = {
     "Miejsce zbrodni":           KronikiElevenaItemData("Progressive",        756783_133, ItemClassification.progression),
     
     # Kapsuły
-    "Kapsuła Plush Foxy'ego":    KronikiElevenaItemData("Quest",        756783_134, ItemClassification.progression),
-    "Kapsuła Hatera":            KronikiElevenaItemData("Quest",        756783_135, ItemClassification.progression),
-    "Kapsuła Dingle'a":          KronikiElevenaItemData("Quest",        756783_136, ItemClassification.progression),
-    "Kapsuła Alex'a":            KronikiElevenaItemData("Quest",        756783_137, ItemClassification.progression),
-    "Kapsuła Złotego Freddy'ego":KronikiElevenaItemData("Quest",        756783_138, ItemClassification.progression),
-    "Kapsuła Kangurka Kao":      KronikiElevenaItemData("Quest",        756783_139, ItemClassification.progression),
-    "Kapsuła Fuckboy'a":         KronikiElevenaItemData("Quest",        756783_140, ItemClassification.progression),
-    "Kapsuła Anima":             KronikiElevenaItemData("Quest",        756783_141, ItemClassification.progression),
-    "Kapsuła Turreta":           KronikiElevenaItemData("Quest",        756783_142, ItemClassification.progression),
-    "Kapsuła Mrokluma":          KronikiElevenaItemData("Quest",        756783_143, ItemClassification.progression),
-    "Kapsuła Andre":             KronikiElevenaItemData("Quest",        756783_144, ItemClassification.progression),
-    "Kapsuła Specimena 2":       KronikiElevenaItemData("Quest",        756783_145, ItemClassification.progression),
-    "Kapsuła Foxy'ego":          KronikiElevenaItemData("Quest",        756783_146, ItemClassification.progression),
-    "Kapsuła Jeffa":             KronikiElevenaItemData("Quest",        756783_147, ItemClassification.progression),
-    "Kapsuła Kukiełki":          KronikiElevenaItemData("Quest",        756783_148, ItemClassification.progression),
-    "Kapsuła Ultra Greeda":      KronikiElevenaItemData("Quest",        756783_149, ItemClassification.progression),
+    "Kapsuła Plush Foxy'ego":    KronikiElevenaItemData("Quest",        756783_134, ItemClassification.useful),
+    "Kapsuła Hatera":            KronikiElevenaItemData("Quest",        756783_135, ItemClassification.useful),
+    "Kapsuła Dingle'a":          KronikiElevenaItemData("Quest",        756783_136, ItemClassification.useful),
+    "Kapsuła Alex'a":            KronikiElevenaItemData("Quest",        756783_137, ItemClassification.useful),
+    "Kapsuła Złotego Freddy'ego":KronikiElevenaItemData("Quest",        756783_138, ItemClassification.useful),
+    "Kapsuła Kangurka Kao":      KronikiElevenaItemData("Quest",        756783_139, ItemClassification.useful),
+    "Kapsuła Fuckboy'a":         KronikiElevenaItemData("Quest",        756783_140, ItemClassification.useful),
+    "Kapsuła Anima":             KronikiElevenaItemData("Quest",        756783_141, ItemClassification.useful),
+    "Kapsuła Turreta":           KronikiElevenaItemData("Quest",        756783_142, ItemClassification.useful),
+    "Kapsuła Mrokluma":          KronikiElevenaItemData("Quest",        756783_143, ItemClassification.useful),
+    "Kapsuła Andre":             KronikiElevenaItemData("Quest",        756783_144, ItemClassification.useful),
+    "Kapsuła Specimena 2":       KronikiElevenaItemData("Quest",        756783_145, ItemClassification.useful),
+    "Kapsuła Foxy'ego":          KronikiElevenaItemData("Quest",        756783_146, ItemClassification.useful),
+    "Kapsuła Jeffa":             KronikiElevenaItemData("Quest",        756783_147, ItemClassification.useful),
+    "Kapsuła Kukiełki":          KronikiElevenaItemData("Quest",        756783_148, ItemClassification.useful),
+    "Kapsuła Ultra Greeda":      KronikiElevenaItemData("Quest",        756783_149, ItemClassification.useful),
     
     # Key Items 3
     "Doggo":                     KronikiElevenaItemData("Progressive",        756783_150, ItemClassification.progression),
-    "Telefon":                   KronikiElevenaItemData("Progressive",        756783_151, ItemClassification.progression)
+    "Telefon":                   KronikiElevenaItemData("Progressive",        756783_151, ItemClassification.progression),
+    "Dusza":                     KronikiElevenaItemData("Progressive",        756783_152, ItemClassification.progression),
+    "Diament":                   KronikiElevenaItemData("Progressive",        756783_153, ItemClassification.progression_skip_balancing,           5),
+    
+    # Armors
+    "Niszczyciel":           KronikiElevenaItemData("Progressive",        756783_154, ItemClassification.useful),
 }
 
 
