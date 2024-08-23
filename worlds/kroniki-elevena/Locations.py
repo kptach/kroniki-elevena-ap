@@ -50,7 +50,7 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Dom Elevena (gra) - jedzenie9":                                      KronikiElevenaLocationData("General",   756783_024),
     "Dom Elevena (gra) - jedzenie10":                                     KronikiElevenaLocationData("General",   756783_025),
     
-    "Dom Elevena (gra) - jedzenie10":                                     KronikiElevenaLocationData("General",   756783_200),
+    "Nawiedzone domostwo - Switch do drzwi FNaF":                         KronikiElevenaLocationData("Quests",    756783_200), # Droga zachodnia (2)
     
     
     
