@@ -261,7 +261,7 @@ receiveditem_methods = {
     756783120 => "$game_party.gain_item($data_items[101], 5)", # Babeczka
 
     # Key Items 2
-    756783121 => "$game_party.gain_item($data_items[36], 4)", # Jad Venesosa Planta
+    756783121 => "$game_party.gain_item($data_items[36], 4)", # Jad Venesosa Planta #idk how many
 
     # Key Items(Dwienków)
     756783122 => "$game_party.gain_item($data_items[37], 1)", # Świeczka
@@ -528,7 +528,8 @@ receiveditem_methods = {
     756783369 => "$game_variables[89] += 1",
     756783370 => "$game_variables[89] += 1",
     # Doors
-    756783371 => "$game_switches[142] = true",
+    756783371 => "$game_switches[142] = true", # FNaF
+    756783372 => "$game_switches[292] = true", # Sklep pierwsze miasto
 
 
 
