@@ -17,3 +17,5 @@ Super! Proszę, oto obiecany przeze mnie
 \c[3]Brak zalet.
 
 \n<Marcin>Czyli co, wybierasz \c[1]Item Archipelago\c[0]?
+
+\c[28]Znalezione Temmie: \v[89] / 10
