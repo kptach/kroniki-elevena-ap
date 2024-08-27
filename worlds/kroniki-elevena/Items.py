@@ -257,4 +257,26 @@ item_table: Dict[str, KronikiElevenaItemData] = {
     "Armor mocy":                KronikiElevenaItemData("Armor",         756783_206, ItemClassification.useful, 4),
     "Karta Skilla I":            KronikiElevenaItemData("Armor",         756783_207, ItemClassification.useful, 4),
 
+    "Opaska bohatera":           KronikiElevenaItemData("Armor",         756783_208, ItemClassification.useful, 2),
+    "Smoczy amulet":             KronikiElevenaItemData("Armor",         756783_209, ItemClassification.useful, 2),
+    "Cegła":                     KronikiElevenaItemData("Armor",         756783_210, ItemClassification.useful, 2),
+    "Magiczna tarcza":           KronikiElevenaItemData("Armor",         756783_211, ItemClassification.useful, 2),
+
+    "Jopek":                     KronikiElevenaItemData("Armor",         756783_212, ItemClassification.useful, 4),
+    "Damka":                     KronikiElevenaItemData("Armor",         756783_213, ItemClassification.useful, 4),
+    "Król":                      KronikiElevenaItemData("Armor",         756783_214, ItemClassification.useful, 4),
+    "As":                        KronikiElevenaItemData("Armor",         756783_215, ItemClassification.useful, 4),
+    "Dzida":                     KronikiElevenaItemData("Armor",         756783_216, ItemClassification.useful, 4),
+    "Srebrna Dzida":             KronikiElevenaItemData("Armor",         756783_217, ItemClassification.useful, 4),
+    "Złota Dzida":               KronikiElevenaItemData("Armor",         756783_218, ItemClassification.useful, 4),
+    "Diamentowa Dzida":          KronikiElevenaItemData("Armor",         756783_219, ItemClassification.useful, 4),
+    "Kubek Zdrowia":             KronikiElevenaItemData("Armor",         756783_220, ItemClassification.useful, 4),
+    "Worek Zdrowia":             KronikiElevenaItemData("Armor",         756783_221, ItemClassification.useful, 4),
+    "Wiadro Zdrowia":            KronikiElevenaItemData("Armor",         756783_222, ItemClassification.useful, 4),
+    "Beczka zdrowia":            KronikiElevenaItemData("Armor",         756783_223, ItemClassification.useful, 4),
+    "Skóra Knaarena":            KronikiElevenaItemData("Armor",         756783_224, ItemClassification.useful, 4),
+
+
+
+
 }
