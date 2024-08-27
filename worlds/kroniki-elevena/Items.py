@@ -83,23 +83,23 @@ item_table: Dict[str, KronikiElevenaItemData] = {
     "Papyrus":                   KronikiElevenaItemData("Party",      756783_054, ItemClassification.progression),
     
     # Key Items
-    "Kontroler":                 KronikiElevenaItemData("Progressive",   756783_055, ItemClassification.progression),
-    "Krótkofalówka":             KronikiElevenaItemData("Progressive",   756783_056, ItemClassification.progression),
-    "Siekiera":                  KronikiElevenaItemData("Progressive",   756783_057, ItemClassification.progression),
-    "Młotek":                    KronikiElevenaItemData("Progressive",   756783_058, ItemClassification.progression),
-    "Karta klucz I":             KronikiElevenaItemData("Progressive",   756783_059, ItemClassification.progression),
-    "Karta klucz II":            KronikiElevenaItemData("Progressive",   756783_060, ItemClassification.progression),
-    "Karta klucz V":             KronikiElevenaItemData("Progressive",   756783_061, ItemClassification.progression),
-    "Przenośny teleport":        KronikiElevenaItemData("Progressive",   756783_062, ItemClassification.progression),
-    "Kartka papieru":            KronikiElevenaItemData("Progressive",   756783_063, ItemClassification.progression),
+    "Kontroler":                 KronikiElevenaItemData("Quest",         756783_055, ItemClassification.progression),
+    "Krótkofalówka":             KronikiElevenaItemData("Quest",         756783_056, ItemClassification.progression),
+    "Siekiera":                  KronikiElevenaItemData("Quest",         756783_057, ItemClassification.progression),
+    "Młotek":                    KronikiElevenaItemData("Quest",         756783_058, ItemClassification.progression),
+    "Karta klucz I":             KronikiElevenaItemData("Quest",         756783_059, ItemClassification.progression),
+    "Karta klucz II":            KronikiElevenaItemData("Quest",         756783_060, ItemClassification.progression),
+    "Karta klucz V":             KronikiElevenaItemData("Quest",         756783_061, ItemClassification.progression),
+    "Przenośny teleport":        KronikiElevenaItemData("Quest",         756783_062, ItemClassification.progression),
+    "Kartka papieru":            KronikiElevenaItemData("Quest",         756783_063, ItemClassification.progression),
     "Tajemnicza część":          KronikiElevenaItemData("Quest",         756783_064, ItemClassification.progression,           4),
-    "Buty Laury":                KronikiElevenaItemData("Progressive",   756783_065, ItemClassification.progression),
-    "Dysk do rzucania":          KronikiElevenaItemData("Progressive",   756783_066, ItemClassification.progression),
-    "Złoty klucz":               KronikiElevenaItemData("Progressive",   756783_067, ItemClassification.progression),
-    "Guziczek":                  KronikiElevenaItemData("Progressive",   756783_068, ItemClassification.progression),
-    "Ołówek i gumka":            KronikiElevenaItemData("Progressive",   756783_069, ItemClassification.progression),
-    "Antygrawitacyjne buty":     KronikiElevenaItemData("Progressive",   756783_070, ItemClassification.progression),
-    "Klucz":                     KronikiElevenaItemData("Progressive",   756783_071, ItemClassification.progression),
+    "Buty Laury":                KronikiElevenaItemData("Quest",         756783_065, ItemClassification.progression),
+    "Dysk do rzucania":          KronikiElevenaItemData("Quest",         756783_066, ItemClassification.progression),
+    "Złoty klucz":               KronikiElevenaItemData("Quest",         756783_067, ItemClassification.progression),
+    "Guziczek":                  KronikiElevenaItemData("Quest",         756783_068, ItemClassification.progression),
+    "Ołówek i gumka":            KronikiElevenaItemData("Quest",         756783_069, ItemClassification.progression),
+    "Antygrawitacyjne buty":     KronikiElevenaItemData("Quest",         756783_070, ItemClassification.progression),
+    "Klucz":                     KronikiElevenaItemData("Quest",         756783_071, ItemClassification.progression),
     
     # Quest Items
     "Złoty grzyb":               KronikiElevenaItemData("Quest",         756783_072, ItemClassification.progression,           5),
@@ -155,23 +155,23 @@ item_table: Dict[str, KronikiElevenaItemData] = {
     "Babeczka":                  KronikiElevenaItemData("Filler",        756783_120, weight=2, max_quantity=5),
     
     # Key Items 2
-    "Jad Venesosa Planta":       KronikiElevenaItemData("Progressive",        756783_121, ItemClassification.progression,       4), # I will leater change number
+    "Jad Venesosa Planta":       KronikiElevenaItemData("Quest",        756783_121, ItemClassification.progression,       1), # I will leater change number if nessesary
     
     # Key Items(Dwienków)
-    "Świeczka":                  KronikiElevenaItemData("Progressive",        756783_122, ItemClassification.progression),
-    "Info. o skrzyni":           KronikiElevenaItemData("Progressive",        756783_123, ItemClassification.progression),
-    "Info. o książkach":         KronikiElevenaItemData("Progressive",        756783_124, ItemClassification.progression),
-    "Info. o kominku":           KronikiElevenaItemData("Progressive",        756783_125, ItemClassification.progression),
-    "Materiał":                  KronikiElevenaItemData("Progressive",        756783_126, ItemClassification.progression),
-    "Odcisk stopy":              KronikiElevenaItemData("Progressive",        756783_127, ItemClassification.progression),
-    "Info. o diamencie":         KronikiElevenaItemData("Progressive",        756783_128, ItemClassification.progression),
+    "Świeczka":                  KronikiElevenaItemData("Quest",        756783_122, ItemClassification.progression),
+    "Info. o skrzyni":           KronikiElevenaItemData("Quest",        756783_123, ItemClassification.progression),
+    "Info. o książkach":         KronikiElevenaItemData("Quest",        756783_124, ItemClassification.progression),
+    "Info. o kominku":           KronikiElevenaItemData("Quest",        756783_125, ItemClassification.progression),
+    "Materiał":                  KronikiElevenaItemData("Quest",        756783_126, ItemClassification.progression),
+    "Odcisk stopy":              KronikiElevenaItemData("Quest",        756783_127, ItemClassification.progression),
+    "Info. o diamencie":         KronikiElevenaItemData("Quest",        756783_128, ItemClassification.progression),
     
     # Key Items(Snowdin)
-    "Zeznania Blooka":           KronikiElevenaItemData("Progressive",        756783_129, ItemClassification.progression),
-    "Zeznania Snowdrake'a":      KronikiElevenaItemData("Progressive",        756783_130, ItemClassification.progression),
-    "Zielony materiał":          KronikiElevenaItemData("Progressive",        756783_131, ItemClassification.progression),
-    "Lodowy kolec":              KronikiElevenaItemData("Progressive",        756783_132, ItemClassification.progression),
-    "Miejsce zbrodni":           KronikiElevenaItemData("Progressive",        756783_133, ItemClassification.progression),
+    "Zeznania Blooka":           KronikiElevenaItemData("Quest",        756783_129, ItemClassification.progression),
+    "Zeznania Snowdrake'a":      KronikiElevenaItemData("Quest",        756783_130, ItemClassification.progression),
+    "Zielony materiał":          KronikiElevenaItemData("Quest",        756783_131, ItemClassification.progression),
+    "Lodowy kolec":              KronikiElevenaItemData("Quest",        756783_132, ItemClassification.progression),
+    "Miejsce zbrodni":           KronikiElevenaItemData("Quest",        756783_133, ItemClassification.progression),
     
     # Kapsuły
     "Kapsuła Plush Foxy'ego":    KronikiElevenaItemData("Quest",        756783_134, ItemClassification.useful),
@@ -192,13 +192,25 @@ item_table: Dict[str, KronikiElevenaItemData] = {
     "Kapsuła Ultra Greeda":      KronikiElevenaItemData("Quest",        756783_149, ItemClassification.useful),
     
     # Key Items 3
-    "Doggo":                     KronikiElevenaItemData("Progressive",        756783_150, ItemClassification.progression),
-    "Telefon":                   KronikiElevenaItemData("Progressive",        756783_151, ItemClassification.progression),
-    "Dusza":                     KronikiElevenaItemData("Progressive",        756783_152, ItemClassification.progression),
-    "Diament":                   KronikiElevenaItemData("Progressive",        756783_153, ItemClassification.progression_skip_balancing,           5),
+    "Doggo":                     KronikiElevenaItemData("Quest",        756783_150, ItemClassification.progression),
+    "Różowe majciochy":          KronikiElevenaItemData("Quest",        756783_151, ItemClassification.progression),
+    "Dusza":                     KronikiElevenaItemData("Quest",        756783_152, ItemClassification.progression),
+    "Diament":                   KronikiElevenaItemData("Quest",        756783_153, ItemClassification.progression_skip_balancing,           5),
     
     # Armors
-    "Niszczyciel":           KronikiElevenaItemData("Progressive",        756783_154, ItemClassification.useful, 4),
+    "Niszczyciel":               KronikiElevenaItemData("Armor",        756783_154, ItemClassification.useful, 4),
+    "Deska":                     KronikiElevenaItemData("Armor",        756783_155, ItemClassification.useful, 4),
+    "Wzmacniacz zdrowia":        KronikiElevenaItemData("Armor",        756783_156, ItemClassification.useful, 4),
+    "Ubijaczka":                 KronikiElevenaItemData("Armor",        756783_157, ItemClassification.useful, 4),
+    "Kołdra":                    KronikiElevenaItemData("Armor",        756783_158, ItemClassification.useful, 4),
+    "Wspomagacz":                KronikiElevenaItemData("Armor",        756783_159, ItemClassification.useful, 4),
+    
+    "Kask":                      KronikiElevenaItemData("Armor",        756783_160, ItemClassification.useful, 2),
+    "Drewniana tarcza":          KronikiElevenaItemData("Armor",        756783_161, ItemClassification.useful, 2),
+    "Kapelusz":                  KronikiElevenaItemData("Armor",        756783_162, ItemClassification.useful, 2),
+    "Rubinowy naszyjnik":        KronikiElevenaItemData("Armor",        756783_163, ItemClassification.useful, 2),
+    "Pelerynka":                 KronikiElevenaItemData("Armor",        756783_164, ItemClassification.useful, 2),
+    "Kapelusz wiedźmy":          KronikiElevenaItemData("Armor",        756783_165, ItemClassification.useful, 2),
 }
 
 
