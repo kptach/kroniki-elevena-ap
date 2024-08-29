@@ -55,7 +55,22 @@ def create_regions(multiworld: MultiWorld, player: int):
         "Pierwsze miasto Dom 9 - sklep":                KronikiElevenaRegionData([]),
         "Pierwsze miasto Dom 9 - sklep 1F":             KronikiElevenaRegionData([]),
         
-        "Jaskinia zagłady":                             KronikiElevenaRegionData([]),
+        "Jaskinia zagłady":                             KronikiElevenaRegionData(["Jaskinia zagłady - Skrzynia1",
+                                                                                  "Jaskinia zagłady - Skrzynia2",
+                                                                                  "Jaskinia zagłady - Skrzynia3"]),
+        
+        
+        #"Droga Zachodnia(1)":                           KronikiElevenaRegionData([]),
+        #"Droga Zachodnia(2)":                           KronikiElevenaRegionData([]),
+        
+        "Droga zachodnia(2)":                           KronikiElevenaRegionData([]),
+        #"Droga zachodnia(2) Dom Bestingtonów":                           KronikiElevenaRegionData([]),
+        "Droga zachodnia(2) Nawiedzone domostwo":       KronikiElevenaRegionData(["Nawiedzone domostwo - Switch do drzwi FNaF",
+                                                                                  "Nawiedzone domostwo - Temmie"]),
+        
+        "Droga zachodnia(2) Lokalizacja FNAF":          KronikiElevenaRegionData(["Lokalizacja FNAF - Pomidor",
+                                                                                  "Lokalizacja FNAF - Doggo"]),
+        
         
 
         # "Pierwsze miasto Dom6":                         KronikiElevenaRegionData([]),

@@ -438,4 +438,6 @@ item_table: Dict[str, KronikiElevenaItemData] = {
     "FNaF Door(Zachód)":            KronikiElevenaItemData("Quest",        756783_359, ItemClassification.progression, 1),
     "Sklep Door(pierwsze miasto)":  KronikiElevenaItemData("Quest",        756783_360, ItemClassification.progression, 1),
 
+
+    # More Fillers: 100$, 400$, 1000$
 }

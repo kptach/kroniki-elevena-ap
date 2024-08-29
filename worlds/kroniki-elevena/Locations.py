@@ -31,6 +31,9 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Dom Elevena (gra) - karta2":                                         KronikiElevenaLocationData("General",   756783_005),
     "Dom Elevena (gra) - karta3":                                         KronikiElevenaLocationData("General",   756783_006),
     "Dom Elevena - List":                                                 KronikiElevenaLocationData("Quests",   756783_007),
+    
+    "Jaskinia zagłady - Skrzynia1":                                       KronikiElevenaLocationData("General",   756783_008),
+    "Jaskinia zagłady - Skrzynia2":                                       KronikiElevenaLocationData("General",   756783_009),
 
     "Pierwsze miasto Dom 5 - grzyby (Chlebek)":                           KronikiElevenaLocationData("Quests",   756783_010),
     "Pierwsze miasto Dom 5 - grzyby (Galaretka)":                         KronikiElevenaLocationData("Quests",   756783_011),
@@ -50,10 +53,12 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Dom Elevena (gra) - jedzenie9":                                      KronikiElevenaLocationData("General",   756783_024),
     "Dom Elevena (gra) - jedzenie10":                                     KronikiElevenaLocationData("General",   756783_025),
     
+    "Jaskinia zagłady - Skrzynia3":                                       KronikiElevenaLocationData("General",   756783_026),
+    
     "Nawiedzone domostwo - Switch do drzwi FNaF":                         KronikiElevenaLocationData("Quests",    756783_200), # Droga zachodnia (2)
     "Lokalizacja FNAF - Pomidor":                                         KronikiElevenaLocationData("General",    756783_201), # Droga zachodnia (2)
     "Lokalizacja FNAF - Doggo":                                           KronikiElevenaLocationData("Quests",    756783_202), # Droga zachodnia (2)
-    "Nawiedzone domostwo - Kaczka":                                       KronikiElevenaLocationData("Quests",    756783_203), # Droga zachodnia (2)
+    "Nawiedzone domostwo - Temmie":                                       KronikiElevenaLocationData("Quests",    756783_203), # Droga zachodnia (2)
     
     
     
