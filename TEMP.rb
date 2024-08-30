@@ -19,3 +19,7 @@ Super! Proszę, oto obiecany przeze mnie
 \n<Marcin>Czyli co, wybierasz \c[1]Item Archipelago\c[0]?
 
 \c[28]Znalezione Temmie: \v[89] / 10
+
+$archipelago.locations.check(756783027)
+$archipelago.locations.check(756783028)
+$archipelago.locations.check(756783029)

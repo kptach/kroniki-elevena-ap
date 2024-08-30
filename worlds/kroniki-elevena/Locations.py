@@ -55,6 +55,10 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     
     "Jaskinia zagłady - Skrzynia3":                                       KronikiElevenaLocationData("General",   756783_026),
     
+    "Dom Teda - Weapon":                                                  KronikiElevenaLocationData("General",   756783_027),
+    "Dom Teda - Armor1":                                                  KronikiElevenaLocationData("General",   756783_028),
+    "Dom Teda - Armor2":                                                  KronikiElevenaLocationData("General",   756783_029),
+    
     "Nawiedzone domostwo - Switch do drzwi FNaF":                         KronikiElevenaLocationData("Quests",    756783_200), # Droga zachodnia (2)
     "Lokalizacja FNAF - Pomidor":                                         KronikiElevenaLocationData("General",    756783_201), # Droga zachodnia (2)
     "Lokalizacja FNAF - Doggo":                                           KronikiElevenaLocationData("Quests",    756783_202), # Droga zachodnia (2)
