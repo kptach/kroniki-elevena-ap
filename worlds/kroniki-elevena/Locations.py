@@ -59,6 +59,15 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Dom Teda - Armor1":                                                  KronikiElevenaLocationData("General",   756783_028),
     "Dom Teda - Armor2":                                                  KronikiElevenaLocationData("General",   756783_029),
     
+    "Sekret na prawo - Złoty Muchomor":                                   KronikiElevenaLocationData("General",   756783_030), # Droga Południowa
+    
+    "Droga Południowa cd. Dom2 - Temmie":                                 KronikiElevenaLocationData("General",   756783_032), # Droga Południowa cd.
+    
+    "Zakazane bezdroża - Skrzynia1":                                      KronikiElevenaLocationData("General",   756783_033),
+    "Zakazane bezdroża - Skrzynia2":                                      KronikiElevenaLocationData("General",   756783_034),
+    
+    "Jaskinia złych snów - Śmierć":                                       KronikiElevenaLocationData("General",   756783_035),
+    
     "Nawiedzone domostwo - Switch do drzwi FNaF":                         KronikiElevenaLocationData("Quests",    756783_200), # Droga zachodnia (2)
     "Lokalizacja FNAF - Pomidor":                                         KronikiElevenaLocationData("General",    756783_201), # Droga zachodnia (2)
     "Lokalizacja FNAF - Doggo":                                           KronikiElevenaLocationData("Quests",    756783_202), # Droga zachodnia (2)

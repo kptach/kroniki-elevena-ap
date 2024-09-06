@@ -29,5 +29,5 @@ Kroniki Elevena:
     minimal: 0
 
   kontroler: true
-    # Includes key item in randomizer.
+    # Includes key item in randomizer. isn't inplemented yet
 
