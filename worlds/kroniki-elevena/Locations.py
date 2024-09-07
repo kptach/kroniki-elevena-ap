@@ -73,6 +73,8 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Jaskinia północ - Skrzynni2":                                        KronikiElevenaLocationData("General",   756783_039),
     "Jaskinia północ - Klucz":                                            KronikiElevenaLocationData("Quests",   756783_040),
     "Jaskinia północ - Robopirat":                                        KronikiElevenaLocationData("Quests",   756783_041),
+    "Jaskinia Left - Tajemnicza część":                                   KronikiElevenaLocationData("Quests",   756783_042),
+    "Jaskinia treasure chamber - Diament":                                KronikiElevenaLocationData("Quests",   756783_043),
     
     
     
