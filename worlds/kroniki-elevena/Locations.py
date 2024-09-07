@@ -82,7 +82,7 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Nawiedzone domostwo - Temmie":                                       KronikiElevenaLocationData("Quests",    756783_203), # Droga zachodnia (2)
     
     # Ładunki mocy
-    **{f"Ładunki mocy {i+1}":                                             KronikiElevenaLocationData("Healing",  756783_600 + i) for i in range(0, 0)},
+    **{f"Ładunki mocy {i+1}":                                             KronikiElevenaLocationData("Healing",  756783_600 + i) for i in range(0, 1)},
     
     
     
