@@ -543,6 +543,22 @@ receiveditem_methods = {
     # Doors
     756783371 => "$game_switches[142] = true", # FNaF
     756783372 => "$game_switches[292] = true", # Sklep pierwsze miasto
+    
+
+
+    # Ładunki mocy # Idk how many 
+    75678600 => "$game_variables[87] += 1",
+    # 75678601 => "$game_variables[87] += 1",
+    # 75678602 => "$game_variables[87] += 1",
+    # 75678603 => "$game_variables[87] += 1",
+    # 75678604 => "$game_variables[87] += 1",
+    # 75678605 => "$game_variables[87] += 1",
+    # 75678606 => "$game_variables[87] += 1",
+    # 75678607 => "$game_variables[87] += 1",
+    # 75678608 => "$game_variables[87] += 1",
+    # 75678609 => "$game_variables[87] += 1",
+    # 75678610 => "$game_variables[87] += 1",
+
 
 
 

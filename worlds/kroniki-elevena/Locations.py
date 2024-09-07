@@ -55,24 +55,34 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     
     "Jaskinia zagłady - Skrzynia3":                                       KronikiElevenaLocationData("General",   756783_026),
     
-    "Dom Teda - Weapon":                                                  KronikiElevenaLocationData("General",   756783_027),
-    "Dom Teda - Armor1":                                                  KronikiElevenaLocationData("General",   756783_028),
-    "Dom Teda - Armor2":                                                  KronikiElevenaLocationData("General",   756783_029),
+    "Dom Teda - Weapon":                                                  KronikiElevenaLocationData("Quests",   756783_027),
+    "Dom Teda - Armor1":                                                  KronikiElevenaLocationData("Quests",   756783_028),
+    "Dom Teda - Armor2":                                                  KronikiElevenaLocationData("Quests",   756783_029),
     
-    "Sekret na prawo - Złoty Muchomor":                                   KronikiElevenaLocationData("General",   756783_030), # Droga Południowa
+    "Sekret na prawo - Złoty Muchomor":                                   KronikiElevenaLocationData("Quests",   756783_030), # Droga Południowa
     
-    "Droga Południowa cd. Dom2 - Temmie":                                 KronikiElevenaLocationData("General",   756783_032), # Droga Południowa cd.
+    "Droga Południowa cd. Dom2 - Temmie":                                 KronikiElevenaLocationData("Quests",   756783_032), # Droga Południowa cd.
     
     "Zakazane bezdroża - Skrzynia1":                                      KronikiElevenaLocationData("General",   756783_033),
     "Zakazane bezdroża - Skrzynia2":                                      KronikiElevenaLocationData("General",   756783_034),
     
-    "Jaskinia złych snów - Śmierć":                                       KronikiElevenaLocationData("General",   756783_035),
+    "Jaskinia złych snów - Śmierć":                                       KronikiElevenaLocationData("Quests",   756783_035),
+    "Jaskinia północ - Krótkofalówka":                                    KronikiElevenaLocationData("Quests",   756783_036),
+    "Jaskinia północ - Siekiera":                                         KronikiElevenaLocationData("Quests",   756783_037),
+    "Jaskinia północ - Skrzynia1":                                        KronikiElevenaLocationData("General",   756783_038),
+    "Jaskinia północ - Skrzynni2":                                        KronikiElevenaLocationData("General",   756783_039),
+    "Jaskinia północ - Klucz":                                            KronikiElevenaLocationData("Quests",   756783_040),
+    "Jaskinia północ - Robopirat":                                        KronikiElevenaLocationData("Quests",   756783_041),
+    
+    
     
     "Nawiedzone domostwo - Switch do drzwi FNaF":                         KronikiElevenaLocationData("Quests",    756783_200), # Droga zachodnia (2)
     "Lokalizacja FNAF - Pomidor":                                         KronikiElevenaLocationData("General",    756783_201), # Droga zachodnia (2)
     "Lokalizacja FNAF - Doggo":                                           KronikiElevenaLocationData("Quests",    756783_202), # Droga zachodnia (2)
     "Nawiedzone domostwo - Temmie":                                       KronikiElevenaLocationData("Quests",    756783_203), # Droga zachodnia (2)
     
+    # Ładunki mocy
+    **{f"Ładunki mocy {i+1}":                                             KronikiElevenaLocationData("Healing",  756783_600 + i) for i in range(0, 0)},
     
     
     

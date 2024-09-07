@@ -439,5 +439,5 @@ item_table: Dict[str, KronikiElevenaItemData] = {
     "Sklep Door(pierwsze miasto)":  KronikiElevenaItemData("Quest",        756783_360, ItemClassification.progression, 1),
 
 
-    # More Fillers: 100$, 400$, 1000$
+    # More Fillers: 100$, 400$, 1000$, Insta Heals
 }
