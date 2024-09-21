@@ -1,4 +1,4 @@
-README isn't finished yet.
+# README isn't finished yet.
 
 Kroniki Elevena is a Polish RPG game.
 I started working to make this, because I saw video of [FNaFBAP](https://github.com/Scrungip/FNaFBAP) by [Scrungip](https://github.com/Scrungip) and I thought it was really cool and gave me an idea to make something similar.
