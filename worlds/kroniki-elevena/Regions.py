@@ -57,8 +57,8 @@ def create_regions(multiworld: MultiWorld, player: int):
         "Droga zachodnia(2) Nawiedzone domostwo":       KronikiElevenaRegionData(["Nawiedzone domostwo - Switch do drzwi FNaF",
                                                                                   "Nawiedzone domostwo - Temmie"]),
         
-        # "Droga zachodnia(2) Lokalizacja FNAF":          KronikiElevenaRegionData(["Lokalizacja FNAF - Pomidor",
-        #                                                                           "Lokalizacja FNAF - Doggo"]),
+        "Droga zachodnia(2) Lokalizacja FNAF":          KronikiElevenaRegionData(["Lokalizacja FNAF - Pomidor",
+                                                                                  "Lokalizacja FNAF - Doggo"]),
         
         
 
