@@ -23,47 +23,50 @@ def get_locations_by_category(category: str) -> Dict[str, KronikiElevenaLocation
 
 location_table: Dict[str, KronikiElevenaLocationData] = {
     # General Checks
-    "Pierwsze miasto Dom1 - Skrzynia":                                    KronikiElevenaLocationData("General",   756783_000),
-    "Pierwsze miasto Dom4 - Skrzynia":                                    KronikiElevenaLocationData("General",   756783_001),
-    "Pierwsze miasto Wodospad - Złoty Muchomor":                          KronikiElevenaLocationData("Quests",   756783_002),
-    "Cyberświat - parnter":                                               KronikiElevenaLocationData("Quests",   756783_003),
-    "Dom Elevena (gra) - karty":                                         KronikiElevenaLocationData("General",   756783_004),
+    "Pierwsze miasto Dom1 - Skrzynia":                                      KronikiElevenaLocationData("General",   756783_000),
+    "Pierwsze miasto Dom4 - Skrzynia":                                      KronikiElevenaLocationData("General",   756783_001),
+    "Pierwsze miasto Wodospad - Złoty Muchomor":                            KronikiElevenaLocationData("Quests",   756783_002),
+    "Cyberświat - parnter":                                                 KronikiElevenaLocationData("Quests",   756783_003),
+    "Dom Elevena (gra) - karty":                                            KronikiElevenaLocationData("General",   756783_004),
 
-    "Dom Elevena - List":                                                 KronikiElevenaLocationData("Quests",   756783_007),
+    "Dom Elevena - List":                                                   KronikiElevenaLocationData("Quests",   756783_007),
     
-    "Jaskinia zagłady - Skrzynia1":                                       KronikiElevenaLocationData("General",   756783_008),
-    "Jaskinia zagłady - Skrzynia2":                                       KronikiElevenaLocationData("General",   756783_009),
+    "Jaskinia zagłady - Skrzynia1":                                         KronikiElevenaLocationData("General",   756783_008),
+    "Jaskinia zagłady - Skrzynia2":                                         KronikiElevenaLocationData("General",   756783_009),
 
-    "Pierwsze miasto Dom 5 - grzyby (Chlebek)":                           KronikiElevenaLocationData("Quests",   756783_010),
-    "Pierwsze miasto Dom 5 - grzyby (Galaretka)":                         KronikiElevenaLocationData("Quests",   756783_011),
-    "Pierwsze miasto Dom 5 - grzyby (Slender)":                           KronikiElevenaLocationData("Quests",   756783_012),
-    "Pierwsze miasto Dom 5 - grzyby (Worms)":                             KronikiElevenaLocationData("Quests",   756783_013),
-    "Pierwsze miasto Dom 5 - grzyby (Spooky)":                            KronikiElevenaLocationData("Quests",   756783_014),
-    "Pierwsze miasto Dom 5 - grzyby (Sos grzybowy)":                      KronikiElevenaLocationData("Quests",   756783_015),
+    "Pierwsze miasto Dom 5 - grzyby (Chlebek)":                             KronikiElevenaLocationData("Quests",   756783_010),
+    "Pierwsze miasto Dom 5 - grzyby (Galaretka)":                           KronikiElevenaLocationData("Quests",   756783_011),
+    "Pierwsze miasto Dom 5 - grzyby (Slender)":                             KronikiElevenaLocationData("Quests",   756783_012),
+    "Pierwsze miasto Dom 5 - grzyby (Worms)":                               KronikiElevenaLocationData("Quests",   756783_013),
+    "Pierwsze miasto Dom 5 - grzyby (Spooky)":                              KronikiElevenaLocationData("Quests",   756783_014),
+    "Pierwsze miasto Dom 5 - grzyby (Sos grzybowy)":                        KronikiElevenaLocationData("Quests",   756783_015),
     
-    "Dom Elevena (gra) - Szafa":                                      KronikiElevenaLocationData("General",   756783_016),
+    "Dom Elevena (gra) - Szafa":                                            KronikiElevenaLocationData("General",   756783_016),
 
-    "Jaskinia zagłady - Skrzynia3":                                       KronikiElevenaLocationData("General",   756783_026),
+    "Jaskinia zagłady - Skrzynia3":                                         KronikiElevenaLocationData("General",   756783_026),
     
-    "Dom Teda - Wyposażenie":                                                  KronikiElevenaLocationData("Quests",   756783_027),
+    "Dom Teda - Wyposażenie":                                               KronikiElevenaLocationData("General",   756783_027),
     
-    "Sekret na prawo - Złoty Muchomor":                                   KronikiElevenaLocationData("Quests",   756783_030), # Droga Południowa
+    "Sekret na prawo - Złoty Muchomor":                                     KronikiElevenaLocationData("Quests",   756783_030), # Droga Południowa
     
-    "Droga Południowa cd. Dom2 - Temmie":                                 KronikiElevenaLocationData("Quests",   756783_031), # Droga Południowa cd.
-    "Droga Południowa cd. Dom2 - Armor":                                 KronikiElevenaLocationData("Quests",   756783_032),
+    "Droga Południowa cd. Dom2 - Temmie":                                   KronikiElevenaLocationData("Quests",   756783_031), # Droga Południowa cd.
+    "Droga Południowa cd. Dom2 - Armor":                                    KronikiElevenaLocationData("Quests",   756783_032),
     
-    "Zakazane bezdroża - Skrzynia1":                                      KronikiElevenaLocationData("General",   756783_033),
-    "Zakazane bezdroża - Skrzynia2":                                      KronikiElevenaLocationData("General",   756783_034),
+    "Zakazane bezdroża - Skrzynia1":                                        KronikiElevenaLocationData("General",   756783_033),
+    "Zakazane bezdroża - Skrzynia2":                                        KronikiElevenaLocationData("General",   756783_034),
     
-    "Jaskinia złych snów - Śmierć":                                       KronikiElevenaLocationData("Quests",   756783_035),
-    "Jaskinia północ - Krótkofalówka":                                    KronikiElevenaLocationData("Quests",   756783_036),
-    "Jaskinia północ - Siekiera":                                         KronikiElevenaLocationData("Quests",   756783_037),
-    "Jaskinia północ - Skrzynia1":                                        KronikiElevenaLocationData("General",   756783_038),
-    "Jaskinia północ - Skrzynni2":                                        KronikiElevenaLocationData("General",   756783_039),
-    "Jaskinia północ - Klucz":                                            KronikiElevenaLocationData("Quests",   756783_040),
-    "Jaskinia północ - Robopirat":                                        KronikiElevenaLocationData("Quests",   756783_041),
-    "Jaskinia Left - Tajemnicza część":                                   KronikiElevenaLocationData("Quests",   756783_042),
-    "Jaskinia treasure chamber - Diament":                                KronikiElevenaLocationData("Quests",   756783_043),
+    "Jaskinia złych snów - Śmierć":                                         KronikiElevenaLocationData("Quests",   756783_035),
+    "Jaskinia północ - Krótkofalówka":                                      KronikiElevenaLocationData("Quests",   756783_036),
+    "Jaskinia północ - Siekiera":                                           KronikiElevenaLocationData("Quests",   756783_037),
+    "Jaskinia północ - Skrzynia1":                                          KronikiElevenaLocationData("General",   756783_038),
+    "Jaskinia północ - Skrzynia2":                                          KronikiElevenaLocationData("General",   756783_039),
+    "Jaskinia północ - Klucz":                                              KronikiElevenaLocationData("Quests",   756783_040),
+    "Jaskinia północ - Robopirat":                                          KronikiElevenaLocationData("Quests",   756783_041),
+    "Jaskinia Left - Tajemnicza część":                                     KronikiElevenaLocationData("Quests",   756783_042),
+    "Jaskinia treasure chamber - Diament":                                  KronikiElevenaLocationData("Quests",   756783_043),
+    
+    
+    "Tęczowa Kraina - Postać":                                              KronikiElevenaLocationData("Quests",   756783_044),
     
     
     
