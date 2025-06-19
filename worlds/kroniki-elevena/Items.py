@@ -424,19 +424,19 @@ item_table: Dict[str, KronikiElevenaItemData] = {
 
     # Variables & Switches
     # Temmie
-    "Temmie 1":                     KronikiElevenaItemData("Quest",        756783_357, ItemClassification.progression, 1),
-    "Temmie 2":                     KronikiElevenaItemData("Quest",        756783_358, ItemClassification.progression, 1),
-    "Temmie 3":                     KronikiElevenaItemData("Quest",        756783_359, ItemClassification.progression, 1),
-    "Temmie 4":                     KronikiElevenaItemData("Quest",        756783_360, ItemClassification.progression, 1),
-    "Temmie 5":                     KronikiElevenaItemData("Quest",        756783_357, ItemClassification.progression, 1),
-    "Temmie 6":                     KronikiElevenaItemData("Quest",        756783_358, ItemClassification.progression, 1),
-    "Temmie 7":                     KronikiElevenaItemData("Quest",        756783_359, ItemClassification.progression, 1),
-    "Temmie 8":                     KronikiElevenaItemData("Quest",        756783_360, ItemClassification.progression, 1),
-    "Temmie 9":                     KronikiElevenaItemData("Quest",        756783_357, ItemClassification.progression, 1),
-    "Temmie 10":                    KronikiElevenaItemData("Quest",        756783_358, ItemClassification.progression, 1),
+    "Temmie 1":                     KronikiElevenaItemData("Quest",        756783_361, ItemClassification.progression, 1),
+    "Temmie 2":                     KronikiElevenaItemData("Quest",        756783_362, ItemClassification.progression, 1),
+    "Temmie 3":                     KronikiElevenaItemData("Quest",        756783_363, ItemClassification.progression, 1),
+    "Temmie 4":                     KronikiElevenaItemData("Quest",        756783_364, ItemClassification.progression, 1),
+    "Temmie 5":                     KronikiElevenaItemData("Quest",        756783_365, ItemClassification.progression, 1),
+    "Temmie 6":                     KronikiElevenaItemData("Quest",        756783_366, ItemClassification.progression, 1),
+    "Temmie 7":                     KronikiElevenaItemData("Quest",        756783_367, ItemClassification.progression, 1),
+    "Temmie 8":                     KronikiElevenaItemData("Quest",        756783_368, ItemClassification.progression, 1),
+    "Temmie 9":                     KronikiElevenaItemData("Quest",        756783_369, ItemClassification.progression, 1),
+    "Temmie 10":                    KronikiElevenaItemData("Quest",        756783_370, ItemClassification.progression, 1),
     # Doors
-    "FNaF Door(Zachód)":            KronikiElevenaItemData("Quest",        756783_359, ItemClassification.progression, 1),
-    "Sklep Door(pierwsze miasto)":  KronikiElevenaItemData("Quest",        756783_360, ItemClassification.progression, 1),
+    "FNaF Door(Zachód)":            KronikiElevenaItemData("Quest",        756783_371, ItemClassification.progression, 1),
+    "Sklep Door(pierwsze miasto)":  KronikiElevenaItemData("Quest",        756783_372, ItemClassification.progression, 1),
 
 
     # More Fillers: 100$, 400$, 1000$, Insta Heals
