@@ -29,7 +29,7 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Cyberświat - parnter":                                               KronikiElevenaLocationData("Quests",   756783_003),
     "Dom Elevena (gra) - karty":                                         KronikiElevenaLocationData("General",   756783_004),
 
-    "Dom Elevena - List":                                                 KronikiElevenaLocationData("Quests",   756783_007),
+    "Dom Elevena - List":                                                 KronikiElevenaLocationData("Quests",   756783_005),
     
     "Jaskinia zagłady - Skrzynia1":                                       KronikiElevenaLocationData("General",   756783_008),
     "Jaskinia zagłady - Skrzynia2":                                       KronikiElevenaLocationData("General",   756783_009),
@@ -69,10 +69,10 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     
     
     
-    # "Nawiedzone domostwo - Switch do drzwi FNaF":                         KronikiElevenaLocationData("Quests",    756783_200), # Droga zachodnia (2)
+    "Nawiedzone domostwo - Switch do drzwi FNaF":                         KronikiElevenaLocationData("Quests",    756783_200), # Droga zachodnia (2)
     # "Lokalizacja FNAF - Pomidor":                                         KronikiElevenaLocationData("General",    756783_201), # Droga zachodnia (2)
     # "Lokalizacja FNAF - Doggo":                                           KronikiElevenaLocationData("Quests",    756783_202), # Droga zachodnia (2)
-    # "Nawiedzone domostwo - Temmie":                                       KronikiElevenaLocationData("Quests",    756783_203), # Droga zachodnia (2)
+    "Nawiedzone domostwo - Temmie":                                       KronikiElevenaLocationData("Quests",    756783_203), # Droga zachodnia (2)
     
     # Ładunki mocy
     **{f"Ładunki mocy {i+1}":                                             KronikiElevenaLocationData("Healing",  756783_600 + i) for i in range(0, 1)},
