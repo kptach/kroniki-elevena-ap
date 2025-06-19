@@ -29,7 +29,7 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Cyberświat - parnter":                                                 KronikiElevenaLocationData("Quests",   756783_003),
     "Dom Elevena (gra) - karty":                                            KronikiElevenaLocationData("General",   756783_004),
 
-    "Dom Elevena - List":                                                   KronikiElevenaLocationData("Quests",   756783_007),
+    "Dom Elevena - List":                                                   KronikiElevenaLocationData("Quests",   756783_005),
     
     "Jaskinia zagłady - Skrzynia1":                                         KronikiElevenaLocationData("General",   756783_008),
     "Jaskinia zagłady - Skrzynia2":                                         KronikiElevenaLocationData("General",   756783_009),
