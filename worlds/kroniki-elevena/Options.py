@@ -1,6 +1,5 @@
 from typing import Dict
-from Options import Choice, Range, Option, Toggle, DeathLink, DefaultOnToggle, OptionSet, PerGameCommonOptions
-from dataclasses import dataclass
+from Options import Choice, Range, Option, Toggle, DeathLink, DefaultOnToggle, OptionSet
 
 
 class Kontroler(Toggle): #TODO
@@ -8,7 +7,6 @@ class Kontroler(Toggle): #TODO
     Includes the Kontroler in the randomizer which is a Key item.
     """
     display_name = "Include Kontroler"
-    
 
 
 #class InteriorWalls(Toggle):
@@ -33,7 +31,10 @@ class Kontroler(Toggle): #TODO
 #    """
 #    display_name = "Deathlink"
 
-@dataclass
-class KronikiElevenaOptionSet(PerGameCommonOptions):
-    kontroler: Kontroler
-#    death_link: DeathLink
+
+kroniki_elevena_options: Dict[str, type[Option]] = { 
+    "kontroler": Kontroler,
+#    "interior_walls": InteriorWalls,
+#    "levelsanity": Levelsanity
+#    "death_link": DeathLink
+}

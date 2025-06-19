@@ -4,7 +4,7 @@ from BaseClasses import Tutorial, Location, LocationProgressType, CollectionStat
 from worlds.AutoWorld import WebWorld, World
 from .Items import KronikiElevenaItem, KronikiElevenaItemData, get_items_by_category, item_table
 from .Locations import KronikiElevenaLocation, location_table
-from .Options import KronikiElevenaOptionSet
+from .Options import kroniki_elevena_options
 from .Regions import create_regions
 from .Rules import set_rules
 
@@ -26,7 +26,7 @@ class KronikiElevenaWorld(World):
     Kroniki Elevena is an RPG game made for Polish youtuber called Eleven and written in's written in Polish.
     """
     game = "Kroniki Elevena"
-    option_definitions = KronikiElevenaOptionSet
+    option_definitions = kroniki_elevena_options
     topology_present = True
     data_version = 4
     required_client_version = (0, 5, 0)
@@ -37,76 +37,59 @@ class KronikiElevenaWorld(World):
 
     def get_setting(self, name: str):
         return getattr(self.multiworld, name)[self.player]
-    
-    # def get_extra_locations(self) -> int:
-    #     extra = 0
-    #     if self.get_setting("Kontroler"):
-    #         extra += 1
-    #     if self.get_setting("levelsanity"):
-    #         extra += 1
-    #     if self.get_setting("trade_quest"):
-    #         extra += 1
-    #     return extra
 
     def fill_slot_data(self) -> dict:
-        return self.options.as_dict(*[name for name in self.options_dataclass.type_hints.keys()])
+        return {option_name: self.get_setting(option_name).value for option_name in kroniki_elevena_options}
 
     def create_items(self):
         item_pool: List[KronikiElevenaItem] = []
         total_locations = len(self.multiworld.get_unfilled_locations(self.player))
-        # chars = ["Freddy", "Bonnie", "Chica", "Foxy"]
-        # randomstarter = self.multiworld.random.choice(chars)
-        # if self.get_setting("random_starter"):
-        #     self.multiworld.push_precollected(self.create_item(randomstarter))
-        # else:
-        #     self.multiworld.push_precollected(self.create_item("Freddy"))
         for name, data in item_table.items():
             quantity = data.max_quantity
             category = data.category
             classification = data.classification
-
+            """
             # Ignore Interior Walls if it's not enabled.
-            # if name == "Reveal Interior Walls" and not self.get_setting("interior_walls"):
-            #     continue
+            if name == "Reveal Interior Walls" and not self.get_setting("interior_walls"):
+                continue
 
-            # Don't include the starting character in the item pool
-            # if name == randomstarter and self.get_setting("random_starter"):
-            #     continue
-            # if name == "Freddy" and not self.get_setting("random_starter"):
-            #     continue
-
-            # Remove more unneccessary items to make room for filler when extra settings aren't enabled
-            # if category == "ExtraArmor" and self.get_extra_locations() <= 1:
-            #     continue
-            # if name == "Fazbear Combo" and self.get_extra_locations() <= 1:
-            #     continue
-            # if name == "Flighty Combo" and self.get_extra_locations() <= 1:
-            #     continue
-            # if name == "Bonbon Combo" and self.get_extra_locations() <= 1:
-            #     continue
-            # if name == "Pirate Combo" and self.get_extra_locations() <= 1:
-            #     continue
-            # if name == "Caffeine Revival" and self.get_extra_locations() <= 1:
-            #     continue
-            # if name == "Guitar Riff" and self.get_extra_locations() <= 1:
-            #     continue
-            # if name == "Speed Share" and self.get_extra_locations() <= 1:
-            #     continue
+            # Remove one of each weapon type if Interior Walls is not active
+            if name == "Progressive Microphone" and not self.get_setting("interior_walls"):
+                quantity -= 1
+            if name == "Progressive Guitar" and not self.get_setting("interior_walls"):
+                quantity -= 1
+            if name == "Progressive Cupcakes" and not self.get_setting("interior_walls"):
+                quantity -= 1
+            if name == "Progressive Hook" and not self.get_setting("interior_walls"):
+                quantity -= 1
+            if name == "Dragon ..." and not self.get_setting("interior_walls"):
+                continue
+            
+            # Remove more unneccessary items when Interior Walls/Trade Quest is not active to make room for filler
+            if category == "Armor" and classification == ItemClassification.useful and not self.get_setting("interior_walls"):
+                continue
+            if name == "Fazbear Combo" and not self.get_setting("trade_quest"):
+                continue
+            if name == "Flighty Combo" and not self.get_setting("trade_quest"):
+                continue
+            if name == "Bonbon Combo" and not self.get_setting("trade_quest"):
+                continue
+            if name == "Pirate Combo" and not self.get_setting("trade_quest"):
+                continue
+            if name == "Fearless Flight" and not self.get_setting("interior_walls"):
+                continue
+            if name == "Speed Share" and not self.get_setting("interior_walls"):
+                continue
 
             # Ignore filler, it will be added in a later stage.
             if data.category == "Filler":
                 continue
+            """
 
             item_pool += [self.create_item(name) for _ in range(0, quantity)]
-        while len(item_pool) < total_locations:
-            item_pool.append(self.create_item(self.get_filler_item_name()))
+
 
         self.multiworld.itempool += item_pool
-
-    def get_filler_item_name(self) -> str:
-        fillers = get_items_by_category("Filler")
-        weights = [data.weight for data in fillers.values()]
-        return self.multiworld.random.choices([filler for filler in fillers.keys()], weights, k=1)[0]
 
     def create_item(self, name: str) -> KronikiElevenaItem:
         data = item_table[name]
