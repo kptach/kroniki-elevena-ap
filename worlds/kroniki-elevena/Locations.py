@@ -27,8 +27,9 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Pierwsze miasto Dom4 - Skrzynia":                                    KronikiElevenaLocationData("General",   756783_001),
     "Pierwsze miasto Wodospad - Złoty Muchomor":                          KronikiElevenaLocationData("Quests",   756783_002),
     "Cyberświat - parnter":                                               KronikiElevenaLocationData("Quests",   756783_003),
-    "Dom Elevena (gra) - karty":                                         KronikiElevenaLocationData("General",   756783_004),
-
+    "Dom Elevena (gra) - karta1":                                         KronikiElevenaLocationData("General",   756783_004),
+    "Dom Elevena (gra) - karta2":                                         KronikiElevenaLocationData("General",   756783_005),
+    "Dom Elevena (gra) - karta3":                                         KronikiElevenaLocationData("General",   756783_006),
     "Dom Elevena - List":                                                 KronikiElevenaLocationData("Quests",   756783_007),
     
     "Jaskinia zagłady - Skrzynia1":                                       KronikiElevenaLocationData("General",   756783_008),
@@ -41,8 +42,16 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Pierwsze miasto Dom 5 - grzyby (Spooky)":                            KronikiElevenaLocationData("Quests",   756783_014),
     "Pierwsze miasto Dom 5 - grzyby (Sos grzybowy)":                      KronikiElevenaLocationData("Quests",   756783_015),
     
-    "Dom Elevena (gra) - Szafa":                                      KronikiElevenaLocationData("General",   756783_016),
-
+    "Dom Elevena (gra) - jedzenie1":                                      KronikiElevenaLocationData("General",   756783_016),
+    "Dom Elevena (gra) - jedzenie2":                                      KronikiElevenaLocationData("General",   756783_017),
+    "Dom Elevena (gra) - jedzenie3":                                      KronikiElevenaLocationData("General",   756783_018),
+    "Dom Elevena (gra) - jedzenie4":                                      KronikiElevenaLocationData("General",   756783_019),
+    "Dom Elevena (gra) - jedzenie5":                                      KronikiElevenaLocationData("General",   756783_020),
+    "Dom Elevena (gra) - jedzenie6":                                      KronikiElevenaLocationData("General",   756783_021),
+    "Dom Elevena (gra) - jedzenie7":                                      KronikiElevenaLocationData("General",   756783_022),
+    "Dom Elevena (gra) - jedzenie8":                                      KronikiElevenaLocationData("General",   756783_023),
+    "Dom Elevena (gra) - jedzenie9":                                      KronikiElevenaLocationData("General",   756783_024),
+    "Dom Elevena (gra) - jedzenie10":                                     KronikiElevenaLocationData("General",   756783_025),
     
     "Jaskinia zagłady - Skrzynia3":                                       KronikiElevenaLocationData("General",   756783_026),
     
