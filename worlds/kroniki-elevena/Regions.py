@@ -49,16 +49,17 @@ def create_regions(multiworld: MultiWorld, player: int):
                                                                                   "Jaskinia zagłady - Skrzynia3"]),
         
         "Droga Połódniowa":                             KronikiElevenaRegionData(["Droga Południowa - Walka"]),
+        "Tęczowa Kraina":                               KronikiElevenaRegionData(["Tęczowa Kraina - Postać"]),
         
         
-        "Droga Zachodnia(1)":                           KronikiElevenaRegionData(["Droga zachodnia(1) - Walka"]),
+        "Droga Zachodnia 1":                           KronikiElevenaRegionData(["Droga zachodnia 1 - Walka"]),
         
-        "Droga zachodnia(2)":                           KronikiElevenaRegionData([]),
+        "Droga zachodnia 2":                           KronikiElevenaRegionData([]),
         #"Droga zachodnia(2) Dom Bestingtonów":                           KronikiElevenaRegionData([]),
-        "Droga zachodnia(2) Nawiedzone domostwo":       KronikiElevenaRegionData(["Nawiedzone domostwo - Switch do drzwi FNaF",
+        "Droga zachodnia 2 - Nawiedzone domostwo":       KronikiElevenaRegionData(["Nawiedzone domostwo - Switch do drzwi FNaF",
                                                                                   "Nawiedzone domostwo - Temmie"]),
         
-        "Droga zachodnia(2) Lokalizacja FNAF":          KronikiElevenaRegionData(["Lokalizacja FNAF - Pomidor",
+        "Droga zachodnia 2 - Lokalizacja FNAF":          KronikiElevenaRegionData(["Lokalizacja FNAF - Pomidor",
                                                                                   "Lokalizacja FNAF - Doggo"])
         
         

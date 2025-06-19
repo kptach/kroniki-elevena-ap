@@ -70,7 +70,7 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     
     "Tęczowa Kraina - Postać":                                              KronikiElevenaLocationData("Quests",   756783_044),
     
-    "Droga zachodnia(1) - Walka":                                           KronikiElevenaLocationData("General",   756783_045), # Droga zachodnia (1)
+    "Droga zachodnia 1 - Walka":                                           KronikiElevenaLocationData("General",   756783_045), # Droga zachodnia (1)
     
     
     

@@ -20,7 +20,6 @@ class KronikiElevenaWeb(WebWorld):
         ["fredzio2006"]
     )]
 
-
 class KronikiElevenaWorld(World):
     """
     Kroniki Elevena is an RPG game made for Polish youtuber called Eleven and written in's written in Polish.
