@@ -1,6 +1,6 @@
 from BaseClasses import CollectionState, MultiWorld, Location, Region, Item
 from .Regions import connect_regions
-from Options import Toggle
+# from Options import Toggle
 
 # def party_count(state: CollectionState, player: int) -> int:
 #     return state.count("Bonnie", player) \

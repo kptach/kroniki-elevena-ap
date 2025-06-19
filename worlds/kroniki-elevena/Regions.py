@@ -52,7 +52,6 @@ def create_regions(multiworld: MultiWorld, player: int):
         
         
         "Droga Zachodnia(1)":                           KronikiElevenaRegionData(["Droga zachodnia(1) - Walka"]),
-        #"Droga Zachodnia(2)":                           KronikiElevenaRegionData([]),
         
         "Droga zachodnia(2)":                           KronikiElevenaRegionData([]),
         #"Droga zachodnia(2) Dom Bestingtonów":                           KronikiElevenaRegionData([]),
