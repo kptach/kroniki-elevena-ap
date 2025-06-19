@@ -27,19 +27,8 @@ def create_regions(multiworld: MultiWorld, player: int):
 
         "Pierwsze miasto":                              KronikiElevenaRegionData(["Pierwsze miasto Wodospad - Złoty Muchomor"]),
 
-        "Dom Elevena (gra)":                            KronikiElevenaRegionData(["Dom Elevena (gra) - karta1",
-                                                                                  "Dom Elevena (gra) - karta2",
-                                                                                  "Dom Elevena (gra) - karta3",
-                                                                                  "Dom Elevena (gra) - jedzenie1",
-                                                                                  "Dom Elevena (gra) - jedzenie2",
-                                                                                  "Dom Elevena (gra) - jedzenie3",
-                                                                                  "Dom Elevena (gra) - jedzenie4",
-                                                                                  "Dom Elevena (gra) - jedzenie5",
-                                                                                  "Dom Elevena (gra) - jedzenie6",
-                                                                                  "Dom Elevena (gra) - jedzenie7",
-                                                                                  "Dom Elevena (gra) - jedzenie8",
-                                                                                  "Dom Elevena (gra) - jedzenie9",
-                                                                                  "Dom Elevena (gra) - jedzenie10"]),
+        "Dom Elevena (gra)":                            KronikiElevenaRegionData(["Dom Elevena (gra) - karty",
+                                                                                  "Dom Elevena (gra) - Jedzenie"]),
 
         "Pierwsze miasto Dom1":                         KronikiElevenaRegionData(["Pierwsze miasto Dom1 - Skrzynia"]),
 
@@ -59,8 +48,10 @@ def create_regions(multiworld: MultiWorld, player: int):
                                                                                   "Jaskinia zagłady - Skrzynia2",
                                                                                   "Jaskinia zagłady - Skrzynia3"]),
         
+        "Droga Połódniowa":                             KronikiElevenaRegionData(["Droga Południowa - Walka"]),
         
-        #"Droga Zachodnia(1)":                           KronikiElevenaRegionData([]),
+        
+        "Droga Zachodnia(1)":                           KronikiElevenaRegionData(["Droga zachodnia(1) - Walka"]),
         #"Droga Zachodnia(2)":                           KronikiElevenaRegionData([]),
         
         "Droga zachodnia(2)":                           KronikiElevenaRegionData([]),
@@ -69,7 +60,7 @@ def create_regions(multiworld: MultiWorld, player: int):
                                                                                   "Nawiedzone domostwo - Temmie"]),
         
         "Droga zachodnia(2) Lokalizacja FNAF":          KronikiElevenaRegionData(["Lokalizacja FNAF - Pomidor",
-                                                                                  "Lokalizacja FNAF - Doggo"]),
+                                                                                  "Lokalizacja FNAF - Doggo"])
         
         
 

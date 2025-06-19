@@ -24,3 +24,4 @@ $archipelago.locations.check(756783040)
 
 
 Otrzymałeś \fb\i[623] \c[1]Przedmiot Archipelago\c[0]\fr!
+Za wygranie walki zdobyłeś \fb\i[623] \c[1]Przedmiot Archipelago\c[0]\fr!

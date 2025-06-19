@@ -41,7 +41,9 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Pierwsze miasto Dom 5 - grzyby (Spooky)":                              KronikiElevenaLocationData("Quests",   756783_014),
     "Pierwsze miasto Dom 5 - grzyby (Sos grzybowy)":                        KronikiElevenaLocationData("Quests",   756783_015),
     
-    "Dom Elevena (gra) - Szafa":                                            KronikiElevenaLocationData("General",   756783_016),
+    "Dom Elevena (gra) - Jedzenie":                                         KronikiElevenaLocationData("General",   756783_016),
+    
+    "Droga Południowa - Walka":                                             KronikiElevenaLocationData("General",   756783_017), # Droga Południowa
 
     "Jaskinia zagłady - Skrzynia3":                                         KronikiElevenaLocationData("General",   756783_026),
     
@@ -68,15 +70,17 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     
     "Tęczowa Kraina - Postać":                                              KronikiElevenaLocationData("Quests",   756783_044),
     
+    "Droga zachodnia(1) - Walka":                                           KronikiElevenaLocationData("General",   756783_045), # Droga zachodnia (1)
     
     
-    "Nawiedzone domostwo - Switch do drzwi FNaF":                         KronikiElevenaLocationData("Quests",    756783_200), # Droga zachodnia (2)
-    "Lokalizacja FNAF - Pomidor":                                         KronikiElevenaLocationData("General",    756783_201), # Droga zachodnia (2)
-    "Lokalizacja FNAF - Doggo":                                           KronikiElevenaLocationData("Quests",    756783_202), # Droga zachodnia (2)
-    "Nawiedzone domostwo - Temmie":                                       KronikiElevenaLocationData("Quests",    756783_203), # Droga zachodnia (2)
+    
+    "Nawiedzone domostwo - Switch do drzwi FNaF":                           KronikiElevenaLocationData("Quests",    756783_200), # Droga zachodnia (2)
+    "Lokalizacja FNAF - Pomidor":                                           KronikiElevenaLocationData("General",    756783_201), # Droga zachodnia (2)
+    "Lokalizacja FNAF - Doggo":                                             KronikiElevenaLocationData("Quests",    756783_202), # Droga zachodnia (2)
+    "Nawiedzone domostwo - Temmie":                                         KronikiElevenaLocationData("Quests",    756783_203), # Droga zachodnia (2)
     
     # Ładunki mocy
-    **{f"Ładunki mocy {i+1}":                                             KronikiElevenaLocationData("Healing",  756783_600 + i) for i in range(0, 1)},
+    **{f"Ładunki mocy {i+1}":                                               KronikiElevenaLocationData("Healing",  756783_600 + i) for i in range(0, 1)},
     
     
     
