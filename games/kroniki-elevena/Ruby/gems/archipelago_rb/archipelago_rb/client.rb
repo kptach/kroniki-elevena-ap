@@ -118,9 +118,11 @@ module Archipelago
                 @data.import_game_data(msg)
 
                 password = nil
-                if @data.game_data["password"]
+                if @data.game_data["password"] and @connect_info["password"].empty?
                     puts "Password:"
                     password = STDIN.gets.strip
+                elsif @data.game_data["password"]
+                    password = @connect_info["password"]
                 end
 
                 connect_packet = Packets::Connect.new(
