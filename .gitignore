@@ -1,6 +1,8 @@
 __pycache__
 *.pyc
 *.apworld
+*.zip
+*.7z
 games/kroniki-elevena/Save01.rvdata2
 games/kroniki-elevena/Save02.rvdata2
 games/kroniki-elevena/Save03.rvdata2
