@@ -548,7 +548,7 @@
 
 
     # Ładunki mocy # Idk how many 
-    75678600 => "$game_variables[87] += 1",
+    213700600 => "$game_variables[87] += 1",
     # 75678601 => "$game_variables[87] += 1",
     # 75678602 => "$game_variables[87] += 1",
     # 75678603 => "$game_variables[87] += 1",
