@@ -41,7 +41,8 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Pierwsze miasto Dom 5 - grzyby (Spooky)":                            KronikiElevenaLocationData("Quests",   756783_014),
     "Pierwsze miasto Dom 5 - grzyby (Sos grzybowy)":                      KronikiElevenaLocationData("Quests",   756783_015),
     
-    "Dom Elevena (gra) - Jedzenie":                                      KronikiElevenaLocationData("General",   756783_016),
+    "Dom Elevena (gra) - Jedzenie":                                       KronikiElevenaLocationData("General",   756783_016),
+    "Droga Południowa - Walka":                                           KronikiElevenaLocationData("General",   756783_017), # Droga Południowa
 
     
     "Jaskinia zagłady - Skrzynia3":                                       KronikiElevenaLocationData("General",   756783_026),
