@@ -61,6 +61,16 @@ def create_regions(multiworld: MultiWorld, player: int):
         
         "Tęczowa Kraina":                           KronikiElevenaRegionData(["Tęczowa Kraina - Postać"]),
         
+        "Jaskinia złych snów":                            KronikiElevenaRegionData([    "Jaskinia złych snów - Śmierć",
+                                                                                        "Jaskinia północ - Krótkofalówka",
+                                                                                        "Jaskinia północ - Siekiera",
+                                                                                        "Jaskinia północ - Skrzynia1",
+                                                                                        "Jaskinia północ - Skrzynni2",
+                                                                                        "Jaskinia północ - Klucz",
+                                                                                        "Jaskinia północ - Robopirat",
+                                                                                        "Jaskinia Left - Tajemnicza część",
+                                                                                        "Jaskinia treasure chamber - Diament"]),
+        
         "Droga zachodnia(1)":                           KronikiElevenaRegionData(["Droga zachodnia 1 - Walka"]),
         "Droga zachodnia(2)":                           KronikiElevenaRegionData([]),
         # #"Droga zachodnia(2) Dom Bestingtonów":                           KronikiElevenaRegionData([]),
