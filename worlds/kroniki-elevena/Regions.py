@@ -56,6 +56,8 @@ def create_regions(multiworld: MultiWorld, player: int):
         
         "Droga połódniowa cd.":                         KronikiElevenaRegionData(["Droga Południowa cd. Dom2 - Temmie",
                                                                                   "Droga Południowa cd. Dom2 - Armor"]),
+        "Zakazane bezdroża":                            KronikiElevenaRegionData(["Zakazane bezdroża - Skrzynia1",
+                                                                                  "Zakazane bezdroża - Skrzynia2"]),
         
         "Tęczowa Kraina":                           KronikiElevenaRegionData(["Tęczowa Kraina - Postać"]),
         
