@@ -133,422 +133,422 @@
 
         
         # Characters
-    756783000 => "$game_party.add_actor(2)",  # Cupcake
-    756783001 => "$game_party.add_actor(3)",  # Plush Foxy
-    756783002 => "$game_party.add_actor(4)",  # Turret
-    756783003 => "$game_party.add_actor(5)",  # Zombie
-    756783004 => "$game_party.add_actor(6)",  # Pająk
-    756783005 => "$game_party.add_actor(7)",  # Chlebek
-    756783006 => "$game_party.add_actor(8)",  # Galaretka
-    756783007 => "$game_party.add_actor(9)",  # Hater
-    756783008 => "$game_party.add_actor(10)", # Dip
-    756783009 => "$game_party.add_actor(11)", # Bob's Brain
-    756783010 => "$game_party.add_actor(12)", # Bóbr
-    756783011 => "$game_party.add_actor(13)", # Mroklum
-    756783012 => "$game_party.add_actor(14)", # Robopirat
-    756783013 => "$game_party.add_actor(15)", # Worms
-    756783014 => "$game_party.add_actor(16)", # Slender
-    756783015 => "$game_party.add_actor(17)", # Dingle
-    756783016 => "$game_party.add_actor(18)", # Chica
-    756783017 => "$game_party.add_actor(19)", # SCP-173
-    756783018 => "$game_party.add_actor(20)", # Blue Baby
-    756783019 => "$game_party.add_actor(21)", # Alex
-    756783020 => "$game_party.add_actor(22)", # Robopirat Ninja
-    756783021 => "$game_party.add_actor(23)", # Andre
-    756783022 => "$game_party.add_actor(24)", # Globox
-    756783023 => "$game_party.add_actor(25)", # Android
-    756783024 => "$game_party.add_actor(26)", # Specimen 2
-    756783025 => "$game_party.add_actor(27)", # Baloon Boy
-    756783026 => "$game_party.add_actor(28)", # Toy Bonnie
-    756783027 => "$game_party.add_actor(29)", # Rayman
-    756783028 => "$game_party.add_actor(30)", # Kao
-    756783029 => "$game_party.add_actor(31)", # Boogeyman
-    756783030 => "$game_party.add_actor(32)", # Spooky
-    756783031 => "$game_party.add_actor(33)", # Freddy
-    756783032 => "$game_party.add_actor(34)", # Złoty Freddy
-    756783033 => "$game_party.add_actor(35)", # Phantom Foxy
-    756783034 => "$game_party.add_actor(36)", # SCP-049
-    756783035 => "$game_party.add_actor(37)", # Reflux
-    756783036 => "$game_party.add_actor(38)", # Jeff
-    756783037 => "$game_party.add_actor(39)", # Isaac
-    756783038 => "$game_party.add_actor(40)", # Azazel
-    756783039 => "$game_party.add_actor(41)", # Monstro II
-    756783040 => "$game_party.add_actor(42)", # Brzytwobrody
-    756783041 => "$game_party.add_actor(43)", # Fuckboy
-    756783042 => "$game_party.add_actor(44)", # Purple Guy
-    756783043 => "$game_party.add_actor(45)", # BB
-    756783044 => "$game_party.add_actor(46)", # SCP-106
-    756783045 => "$game_party.add_actor(47)", # Kukiełka
-    756783046 => "$game_party.add_actor(48)", # Ultra Greed
-    756783047 => "$game_party.add_actor(49)", # Anim
-    756783048 => "$game_party.add_actor(50)", # Cat Mario
-    756783049 => "$game_party.add_actor(51)", # Indiana
-    756783050 => "$game_party.add_actor(52)", # Serek(Kapłan)
-    756783051 => "$game_party.add_actor(53)", # Lara Croft
-    756783052 => "$game_party.add_actor(54)", # Serek(Wsparcie)
-    756783053 => "$game_party.add_actor(55)", # Kaktus mag
-    756783054 => "$game_party.add_actor(58)", # Papyrus
+    213700000 => "$game_party.add_actor(2)",  # Cupcake
+    213700001 => "$game_party.add_actor(3)",  # Plush Foxy
+    213700002 => "$game_party.add_actor(4)",  # Turret
+    213700003 => "$game_party.add_actor(5)",  # Zombie
+    213700004 => "$game_party.add_actor(6)",  # Pająk
+    213700005 => "$game_party.add_actor(7)",  # Chlebek
+    213700006 => "$game_party.add_actor(8)",  # Galaretka
+    213700007 => "$game_party.add_actor(9)",  # Hater
+    213700008 => "$game_party.add_actor(10)", # Dip
+    213700009 => "$game_party.add_actor(11)", # Bob's Brain
+    213700010 => "$game_party.add_actor(12)", # Bóbr
+    213700011 => "$game_party.add_actor(13)", # Mroklum
+    213700012 => "$game_party.add_actor(14)", # Robopirat
+    213700013 => "$game_party.add_actor(15)", # Worms
+    213700014 => "$game_party.add_actor(16)", # Slender
+    213700015 => "$game_party.add_actor(17)", # Dingle
+    213700016 => "$game_party.add_actor(18)", # Chica
+    213700017 => "$game_party.add_actor(19)", # SCP-173
+    213700018 => "$game_party.add_actor(20)", # Blue Baby
+    213700019 => "$game_party.add_actor(21)", # Alex
+    213700020 => "$game_party.add_actor(22)", # Robopirat Ninja
+    213700021 => "$game_party.add_actor(23)", # Andre
+    213700022 => "$game_party.add_actor(24)", # Globox
+    213700023 => "$game_party.add_actor(25)", # Android
+    213700024 => "$game_party.add_actor(26)", # Specimen 2
+    213700025 => "$game_party.add_actor(27)", # Baloon Boy
+    213700026 => "$game_party.add_actor(28)", # Toy Bonnie
+    213700027 => "$game_party.add_actor(29)", # Rayman
+    213700028 => "$game_party.add_actor(30)", # Kao
+    213700029 => "$game_party.add_actor(31)", # Boogeyman
+    213700030 => "$game_party.add_actor(32)", # Spooky
+    213700031 => "$game_party.add_actor(33)", # Freddy
+    213700032 => "$game_party.add_actor(34)", # Złoty Freddy
+    213700033 => "$game_party.add_actor(35)", # Phantom Foxy
+    213700034 => "$game_party.add_actor(36)", # SCP-049
+    213700035 => "$game_party.add_actor(37)", # Reflux
+    213700036 => "$game_party.add_actor(38)", # Jeff
+    213700037 => "$game_party.add_actor(39)", # Isaac
+    213700038 => "$game_party.add_actor(40)", # Azazel
+    213700039 => "$game_party.add_actor(41)", # Monstro II
+    213700040 => "$game_party.add_actor(42)", # Brzytwobrody
+    213700041 => "$game_party.add_actor(43)", # Fuckboy
+    213700042 => "$game_party.add_actor(44)", # Purple Guy
+    213700043 => "$game_party.add_actor(45)", # BB
+    213700044 => "$game_party.add_actor(46)", # SCP-106
+    213700045 => "$game_party.add_actor(47)", # Kukiełka
+    213700046 => "$game_party.add_actor(48)", # Ultra Greed
+    213700047 => "$game_party.add_actor(49)", # Anim
+    213700048 => "$game_party.add_actor(50)", # Cat Mario
+    213700049 => "$game_party.add_actor(51)", # Indiana
+    213700050 => "$game_party.add_actor(52)", # Serek(Kapłan)
+    213700051 => "$game_party.add_actor(53)", # Lara Croft
+    213700052 => "$game_party.add_actor(54)", # Serek(Wsparcie)
+    213700053 => "$game_party.add_actor(55)", # Kaktus mag
+    213700054 => "$game_party.add_actor(58)", # Papyrus
 
     # Key Items
-    756783055 => "$game_party.gain_item($data_items[1], 1)",  # Kontroler
-    756783056 => "$game_party.gain_item($data_items[10], 1)", # Krótkofalówka
-    756783057 => "$game_party.gain_item($data_items[3], 1)",  # Siekiera
-    756783058 => "$game_party.gain_item($data_items[18], 1)", # Młotek
-    756783059 => "$game_party.gain_item($data_items[21], 1)", # Karta klucz I
-    756783060 => "$game_party.gain_item($data_items[22], 1)", # Karta klucz II
-    756783061 => "$game_party.gain_item($data_items[23], 1)", # Karta klucz V
-    756783062 => "$game_party.gain_item($data_items[46], 1)", # Przenośny teleport
-    756783063 => "$game_party.gain_item($data_items[55], 1)", # Kartka papieru
-    756783064 => "$game_party.gain_item($data_items[58], 1)", # Tajemnicza część
-    756783065 => "$game_party.gain_item($data_items[62], 1)", # Buty Laury
-    756783066 => "$game_party.gain_item($data_items[68], 1)", # Dysk do rzucania
-    756783067 => "$game_party.gain_item($data_items[70], 1)", # Złoty klucz
-    756783068 => "$game_party.gain_item($data_items[72], 1)", # Guziczek
-    756783069 => "$game_party.gain_item($data_items[73], 1)", # Ołówek i gumka
-    756783070 => "$game_party.gain_item($data_items[74], 1)", # Antygrawitacyjne buty
-    756783071 => "$game_party.gain_item($data_items[16], 1)", # Klucz
+    213700055 => "$game_party.gain_item($data_items[1], 1)",  # Kontroler
+    213700056 => "$game_party.gain_item($data_items[10], 1)", # Krótkofalówka
+    213700057 => "$game_party.gain_item($data_items[3], 1)",  # Siekiera
+    213700058 => "$game_party.gain_item($data_items[18], 1)", # Młotek
+    213700059 => "$game_party.gain_item($data_items[21], 1)", # Karta klucz I
+    213700060 => "$game_party.gain_item($data_items[22], 1)", # Karta klucz II
+    213700061 => "$game_party.gain_item($data_items[23], 1)", # Karta klucz V
+    213700062 => "$game_party.gain_item($data_items[46], 1)", # Przenośny teleport
+    213700063 => "$game_party.gain_item($data_items[55], 1)", # Kartka papieru
+    213700064 => "$game_party.gain_item($data_items[58], 1)", # Tajemnicza część
+    213700065 => "$game_party.gain_item($data_items[62], 1)", # Buty Laury
+    213700066 => "$game_party.gain_item($data_items[68], 1)", # Dysk do rzucania
+    213700067 => "$game_party.gain_item($data_items[70], 1)", # Złoty klucz
+    213700068 => "$game_party.gain_item($data_items[72], 1)", # Guziczek
+    213700069 => "$game_party.gain_item($data_items[73], 1)", # Ołówek i gumka
+    213700070 => "$game_party.gain_item($data_items[74], 1)", # Antygrawitacyjne buty
+    213700071 => "$game_party.gain_item($data_items[16], 1)", # Klucz
 
     # Quest Items
-    756783072 => "$game_party.gain_item($data_items[4], 1)",  # Złoty grzyb
-    756783073 => "$game_party.gain_item($data_items[20], 1)", # Sos grzybowy
+    213700072 => "$game_party.gain_item($data_items[4], 1)",  # Złoty grzyb
+    213700073 => "$game_party.gain_item($data_items[20], 1)", # Sos grzybowy
 
     # Fillers
-    756783074 => "$game_party.gain_item($data_items[5], 1)",  # Jabłko
-    756783075 => "$game_party.gain_item($data_items[6], 1)",  # Winoogrono
-    756783076 => "$game_party.gain_item($data_items[7], 1)",  # Mandarynka
-    756783077 => "$game_party.gain_item($data_items[8], 1)",  # Wiśnie
-    756783078 => "$game_party.gain_item($data_items[9], 1)",  # Zioła
-    756783079 => "$game_party.gain_item($data_items[12], 1)", # Czerwony lum
-    756783080 => "$game_party.gain_item($data_items[13], 1)", # Niebieski lum
-    756783081 => "$game_party.gain_item($data_items[14], 1)", # Żółty lum
-    756783082 => "$game_party.gain_item($data_items[15], 1)", # Marchewka
-    756783083 => "$game_party.gain_item($data_items[24], 1)", # Srebrny klucz # idk what to do with it or how many there are
-    756783084 => "$game_party.gain_item($data_items[25], 1)", # Pomidor
-    756783085 => "$game_party.gain_item($data_items[26], 1)", # Koniczyna
-    756783086 => "$game_party.gain_item($data_items[27], 1)", # Pikantna papryka
-    756783087 => "$game_party.gain_item($data_items[44], 1)", # Cytryna
-    756783088 => "$game_party.gain_item($data_items[45], 1)", # Wyciąg z kaktusa
-    756783089 => "$game_party.gain_item($data_items[47], 1)",  # Penizol
-    756783090 => "$game_party.gain_item($data_items[48], 1)", # Prezent
-    756783091 => "$game_party.gain_item($data_items[49], 1)", # Mała ognista bomba
-    756783092 => "$game_party.gain_item($data_items[50], 1)", # Duża ognista bomba
-    756783093 => "$game_party.gain_item($data_items[51], 1)", # Mała wodna bomba
-    756783094 => "$game_party.gain_item($data_items[52], 1)", # Duża wodna bomba
-    756783095 => "$game_party.gain_item($data_items[53], 1)", # Mała ziemna bomba
-    756783096 => "$game_party.gain_item($data_items[54], 1)", # Duża ziemna bomba
-    756783097 => "$game_party.gain_item($data_items[57], 1)", # Smocza miłość
-    756783098 => "$game_party.gain_item($data_items[59], 1)", # Meteoryt ataku
-    756783099 => "$game_party.gain_item($data_items[60], 1)", # Meteoryt magii
-    756783100 => "$game_party.gain_item($data_items[61], 1)", # Meteoryt szybkości
-    756783101 => "$game_party.gain_item($data_items[63], 1)", # Mikstura zdrowia
-    756783102 => "$game_party.gain_item($data_items[64], 1)", # Mikstura energii
-    756783103 => "$game_party.gain_item($data_items[65], 1)", # Płynny szał
-    756783104 => "$game_party.gain_item($data_items[66], 1)", # Gwiezdne Chrupki
-    756783105 => "$game_party.gain_item($data_items[67], 1)", # Psia kupa
-    756783106 => "$game_party.gain_item($data_items[69], 1)", # Kokarda Tarkopsa
-    756783107 => "$game_party.gain_item($data_items[71], 1)",  # Płatek róży
-    756783108 => "$game_party.gain_item($data_items[88], 1)",  # Płatek Tem
-    756783109 => "$game_party.gain_item($data_items[89], 1)",  # Płatek Tem (wyprzedaż)
-    756783110 => "$game_party.gain_item($data_items[90], 1)",  # Płatek Tem (zatruty)
-    756783111 => "$game_party.gain_item($data_items[91], 1)", # Klejnot many
-    756783112 => "$game_party.gain_item($data_items[92], 1)", # Klejnot cyberpunktów
-    756783113 => "$game_party.gain_item($data_items[93], 1)", # Klejnot obrażeń
-    756783114 => "$game_party.gain_item($data_items[94], 1)", # Klejnot życia
-    756783115 => "$game_party.gain_item($data_items[95], 1)", # Klejnot ruchu
-    756783116 => "$game_party.gain_item($data_items[96], 1)", # Olbrzymia ognista bomba
-    756783117 => "$game_party.gain_item($data_items[97], 1)", # Gwiezdne Chrupki XL
-    756783118 => "$game_party.gain_item($data_items[98], 1)", # Spaghetti
-    756783119 => "$game_party.gain_item($data_items[99], 1)",  # Klejnot żywiołów
-    756783120 => "$game_party.gain_item($data_items[101], 1)", # Babeczka
+    213700074 => "$game_party.gain_item($data_items[5], 1)",  # Jabłko
+    213700075 => "$game_party.gain_item($data_items[6], 1)",  # Winoogrono
+    213700076 => "$game_party.gain_item($data_items[7], 1)",  # Mandarynka
+    213700077 => "$game_party.gain_item($data_items[8], 1)",  # Wiśnie
+    213700078 => "$game_party.gain_item($data_items[9], 1)",  # Zioła
+    213700079 => "$game_party.gain_item($data_items[12], 1)", # Czerwony lum
+    213700080 => "$game_party.gain_item($data_items[13], 1)", # Niebieski lum
+    213700081 => "$game_party.gain_item($data_items[14], 1)", # Żółty lum
+    213700082 => "$game_party.gain_item($data_items[15], 1)", # Marchewka
+    213700083 => "$game_party.gain_item($data_items[24], 1)", # Srebrny klucz # idk what to do with it or how many there are
+    213700084 => "$game_party.gain_item($data_items[25], 1)", # Pomidor
+    213700085 => "$game_party.gain_item($data_items[26], 1)", # Koniczyna
+    213700086 => "$game_party.gain_item($data_items[27], 1)", # Pikantna papryka
+    213700087 => "$game_party.gain_item($data_items[44], 1)", # Cytryna
+    213700088 => "$game_party.gain_item($data_items[45], 1)", # Wyciąg z kaktusa
+    213700089 => "$game_party.gain_item($data_items[47], 1)",  # Penizol
+    213700090 => "$game_party.gain_item($data_items[48], 1)", # Prezent
+    213700091 => "$game_party.gain_item($data_items[49], 1)", # Mała ognista bomba
+    213700092 => "$game_party.gain_item($data_items[50], 1)", # Duża ognista bomba
+    213700093 => "$game_party.gain_item($data_items[51], 1)", # Mała wodna bomba
+    213700094 => "$game_party.gain_item($data_items[52], 1)", # Duża wodna bomba
+    213700095 => "$game_party.gain_item($data_items[53], 1)", # Mała ziemna bomba
+    213700096 => "$game_party.gain_item($data_items[54], 1)", # Duża ziemna bomba
+    213700097 => "$game_party.gain_item($data_items[57], 1)", # Smocza miłość
+    213700098 => "$game_party.gain_item($data_items[59], 1)", # Meteoryt ataku
+    213700099 => "$game_party.gain_item($data_items[60], 1)", # Meteoryt magii
+    213700100 => "$game_party.gain_item($data_items[61], 1)", # Meteoryt szybkości
+    213700101 => "$game_party.gain_item($data_items[63], 1)", # Mikstura zdrowia
+    213700102 => "$game_party.gain_item($data_items[64], 1)", # Mikstura energii
+    213700103 => "$game_party.gain_item($data_items[65], 1)", # Płynny szał
+    213700104 => "$game_party.gain_item($data_items[66], 1)", # Gwiezdne Chrupki
+    213700105 => "$game_party.gain_item($data_items[67], 1)", # Psia kupa
+    213700106 => "$game_party.gain_item($data_items[69], 1)", # Kokarda Tarkopsa
+    213700107 => "$game_party.gain_item($data_items[71], 1)",  # Płatek róży
+    213700108 => "$game_party.gain_item($data_items[88], 1)",  # Płatek Tem
+    213700109 => "$game_party.gain_item($data_items[89], 1)",  # Płatek Tem (wyprzedaż)
+    213700110 => "$game_party.gain_item($data_items[90], 1)",  # Płatek Tem (zatruty)
+    213700111 => "$game_party.gain_item($data_items[91], 1)", # Klejnot many
+    213700112 => "$game_party.gain_item($data_items[92], 1)", # Klejnot cyberpunktów
+    213700113 => "$game_party.gain_item($data_items[93], 1)", # Klejnot obrażeń
+    213700114 => "$game_party.gain_item($data_items[94], 1)", # Klejnot życia
+    213700115 => "$game_party.gain_item($data_items[95], 1)", # Klejnot ruchu
+    213700116 => "$game_party.gain_item($data_items[96], 1)", # Olbrzymia ognista bomba
+    213700117 => "$game_party.gain_item($data_items[97], 1)", # Gwiezdne Chrupki XL
+    213700118 => "$game_party.gain_item($data_items[98], 1)", # Spaghetti
+    213700119 => "$game_party.gain_item($data_items[99], 1)",  # Klejnot żywiołów
+    213700120 => "$game_party.gain_item($data_items[101], 1)", # Babeczka
 
     # Key Items 2
-    756783121 => "$game_party.gain_item($data_items[36], 1)", # Jad Venesosa Planta #idk how many
+    213700121 => "$game_party.gain_item($data_items[36], 1)", # Jad Venesosa Planta #idk how many
 
     # Key Items(Dwienków)
-    756783122 => "$game_party.gain_item($data_items[37], 1)", # Świeczka
-    756783123 => "$game_party.gain_item($data_items[38], 1)", # Info. o skrzyni
-    756783124 => "$game_party.gain_item($data_items[39], 1)", # Info. o książkach
-    756783125 => "$game_party.gain_item($data_items[40], 1)", # Info. o kominku
-    756783126 => "$game_party.gain_item($data_items[41], 1)", # Materiał
-    756783127 => "$game_party.gain_item($data_items[42], 1)", # Odcisk stopy
-    756783128 => "$game_party.gain_item($data_items[43], 1)", # Info. o diamencie
+    213700122 => "$game_party.gain_item($data_items[37], 1)", # Świeczka
+    213700123 => "$game_party.gain_item($data_items[38], 1)", # Info. o skrzyni
+    213700124 => "$game_party.gain_item($data_items[39], 1)", # Info. o książkach
+    213700125 => "$game_party.gain_item($data_items[40], 1)", # Info. o kominku
+    213700126 => "$game_party.gain_item($data_items[41], 1)", # Materiał
+    213700127 => "$game_party.gain_item($data_items[42], 1)", # Odcisk stopy
+    213700128 => "$game_party.gain_item($data_items[43], 1)", # Info. o diamencie
 
     # Key Items(Snowdin)
-    756783129 => "$game_party.gain_item($data_items[83], 1)", # Zeznania Blooka
-    756783130 => "$game_party.gain_item($data_items[84], 1)", # Zeznania Snowdrake'a
-    756783131 => "$game_party.gain_item($data_items[85], 1)", # Zielony materiał
-    756783132 => "$game_party.gain_item($data_items[86], 1)", # Lodowy kolec
-    756783133 => "$game_party.gain_item($data_items[87], 1)", # Miejsce zbrodni
+    213700129 => "$game_party.gain_item($data_items[83], 1)", # Zeznania Blooka
+    213700130 => "$game_party.gain_item($data_items[84], 1)", # Zeznania Snowdrake'a
+    213700131 => "$game_party.gain_item($data_items[85], 1)", # Zielony materiał
+    213700132 => "$game_party.gain_item($data_items[86], 1)", # Lodowy kolec
+    213700133 => "$game_party.gain_item($data_items[87], 1)", # Miejsce zbrodni
 
     # Kapsuły
-    756783134 => "$game_party.gain_item($data_items[28], 1)", # Kapsuła Plush Foxy'ego
-    756783135 => "$game_party.gain_item($data_items[29], 1)", # Kapsuła Hatera
-    756783136 => "$game_party.gain_item($data_items[30], 1)", # Kapsuła Dingle'a
-    756783137 => "$game_party.gain_item($data_items[31], 1)", # Kapsuła Alex'a
-    756783138 => "$game_party.gain_item($data_items[32], 1)", # Kapsuła Złotego Freddy'ego
-    756783139 => "$game_party.gain_item($data_items[33], 1)", # Kapsuła Kangurka Kao
-    756783140 => "$game_party.gain_item($data_items[34], 1)", # Kapsuła Fuckboy'a
-    756783141 => "$game_party.gain_item($data_items[35], 1)", # Kapsuła Anima
-    756783142 => "$game_party.gain_item($data_items[75], 1)", # Kapsuła Turreta
-    756783143 => "$game_party.gain_item($data_items[76], 1)", # Kapsuła Mrokluma
-    756783144 => "$game_party.gain_item($data_items[77], 1)", # Kapsuła Andre
-    756783145 => "$game_party.gain_item($data_items[78], 1)", # Kapsuła Specimena 2
-    756783146 => "$game_party.gain_item($data_items[79], 1)", # Kapsuła Foxy'ego
-    756783147 => "$game_party.gain_item($data_items[80], 1)", # Kapsuła Jeffa
-    756783148 => "$game_party.gain_item($data_items[81], 1)", # Kapsuła Kukiełki
-    756783149 => "$game_party.gain_item($data_items[82], 1)", # Kapsuła Ultra Greeda
+    213700134 => "$game_party.gain_item($data_items[28], 1)", # Kapsuła Plush Foxy'ego
+    213700135 => "$game_party.gain_item($data_items[29], 1)", # Kapsuła Hatera
+    213700136 => "$game_party.gain_item($data_items[30], 1)", # Kapsuła Dingle'a
+    213700137 => "$game_party.gain_item($data_items[31], 1)", # Kapsuła Alex'a
+    213700138 => "$game_party.gain_item($data_items[32], 1)", # Kapsuła Złotego Freddy'ego
+    213700139 => "$game_party.gain_item($data_items[33], 1)", # Kapsuła Kangurka Kao
+    213700140 => "$game_party.gain_item($data_items[34], 1)", # Kapsuła Fuckboy'a
+    213700141 => "$game_party.gain_item($data_items[35], 1)", # Kapsuła Anima
+    213700142 => "$game_party.gain_item($data_items[75], 1)", # Kapsuła Turreta
+    213700143 => "$game_party.gain_item($data_items[76], 1)", # Kapsuła Mrokluma
+    213700144 => "$game_party.gain_item($data_items[77], 1)", # Kapsuła Andre
+    213700145 => "$game_party.gain_item($data_items[78], 1)", # Kapsuła Specimena 2
+    213700146 => "$game_party.gain_item($data_items[79], 1)", # Kapsuła Foxy'ego
+    213700147 => "$game_party.gain_item($data_items[80], 1)", # Kapsuła Jeffa
+    213700148 => "$game_party.gain_item($data_items[81], 1)", # Kapsuła Kukiełki
+    213700149 => "$game_party.gain_item($data_items[82], 1)", # Kapsuła Ultra Greeda
 
     # Key Items 3
-    756783150 => "$game_party.gain_item($data_items[56], 1)", # Doggo
-    756783151 => "$game_party.gain_item($data_items[102], 1)",# Różowe majciochy
-    756783152 => "$game_party.gain_item($data_items[19], 1)", # Dusza
-    756783153 => "$game_party.gain_item($data_items[17], 1)", # Diament
+    213700150 => "$game_party.gain_item($data_items[56], 1)", # Doggo
+    213700151 => "$game_party.gain_item($data_items[102], 1)",# Różowe majciochy
+    213700152 => "$game_party.gain_item($data_items[19], 1)", # Dusza
+    213700153 => "$game_party.gain_item($data_items[17], 1)", # Diament
 
     # Armor
-    756783154 => "$game_party.gain_item($data_armors[1], 1)", # "Niszczyciel"
-    756783155 => "$game_party.gain_item($data_armors[2], 1)", # "Deska"
-    756783156 => "$game_party.gain_item($data_armors[3], 1)", # "Wzmacniacz zdrowia"
-    756783157 => "$game_party.gain_item($data_armors[4], 1)", # "Ubijaczka"
-    756783158 => "$game_party.gain_item($data_armors[5], 1)", # "Kołdra"
-    756783159 => "$game_party.gain_item($data_armors[6], 1)", # "Wspomagacz"
+    213700154 => "$game_party.gain_item($data_armors[1], 1)", # "Niszczyciel"
+    213700155 => "$game_party.gain_item($data_armors[2], 1)", # "Deska"
+    213700156 => "$game_party.gain_item($data_armors[3], 1)", # "Wzmacniacz zdrowia"
+    213700157 => "$game_party.gain_item($data_armors[4], 1)", # "Ubijaczka"
+    213700158 => "$game_party.gain_item($data_armors[5], 1)", # "Kołdra"
+    213700159 => "$game_party.gain_item($data_armors[6], 1)", # "Wspomagacz"
 
-    756783160 => "$game_party.gain_item($data_armors[7], 1)", # Kask
-    756783161 => "$game_party.gain_item($data_armors[8], 1)", # Drewniana tarcza
-    756783162 => "$game_party.gain_item($data_armors[9], 1)", # Kapelusz
-    756783163 => "$game_party.gain_item($data_armors[10], 1)", # Rubinowy naszyjnik
-    756783164 => "$game_party.gain_item($data_armors[11], 1)", # Pelerynka
-    756783165 => "$game_party.gain_item($data_armors[12], 1)", # Kapelusz wiedźmy
+    213700160 => "$game_party.gain_item($data_armors[7], 1)", # Kask
+    213700161 => "$game_party.gain_item($data_armors[8], 1)", # Drewniana tarcza
+    213700162 => "$game_party.gain_item($data_armors[9], 1)", # Kapelusz
+    213700163 => "$game_party.gain_item($data_armors[10], 1)", # Rubinowy naszyjnik
+    213700164 => "$game_party.gain_item($data_armors[11], 1)", # Pelerynka
+    213700165 => "$game_party.gain_item($data_armors[12], 1)", # Kapelusz wiedźmy
     
-    756783166 => "$game_party.gain_item($data_armors[13], 1)", # "Wilcze szpony"
-    756783167 => "$game_party.gain_item($data_armors[14], 1)", # "Wilcze futro"
-    756783168 => "$game_party.gain_item($data_armors[15], 1)", # "Szczurzy ogon"
-    756783169 => "$game_party.gain_item($data_armors[16], 1)", # "Złote pięści"
-    756783170 => "$game_party.gain_item($data_armors[17], 1)", # "Różaniec"
-    756783171 => "$game_party.gain_item($data_armors[18], 1)", # "Karta Mądrości"
-    756783172 => "$game_party.gain_item($data_armors[19], 1)", # "Lewy but"
-    756783173 => "$game_party.gain_item($data_armors[20], 1)", # "Czarna dziura"
-    756783174 => "$game_party.gain_item($data_armors[21], 1)", # "Pistolet"
-    756783175 => "$game_party.gain_item($data_armors[22], 1)", # "Błyskawica"
-    756783176 => "$game_party.gain_item($data_armors[23], 1)", # "Głaz"
-    756783177 => "$game_party.gain_item($data_armors[24], 1)", # "Kupa gruzu"
-    756783178 => "$game_party.gain_item($data_armors[25], 1)", # "Toksyczna zbroja"
-    756783179 => "$game_party.gain_item($data_armors[26], 1)", # "Dopalacz"
-    756783180 => "$game_party.gain_item($data_armors[27], 1)", # "Kapelusz złodzieja"
-    756783181 => "$game_party.gain_item($data_armors[28], 1)", # "Odnawiacz zdrowia I"
+    213700166 => "$game_party.gain_item($data_armors[13], 1)", # "Wilcze szpony"
+    213700167 => "$game_party.gain_item($data_armors[14], 1)", # "Wilcze futro"
+    213700168 => "$game_party.gain_item($data_armors[15], 1)", # "Szczurzy ogon"
+    213700169 => "$game_party.gain_item($data_armors[16], 1)", # "Złote pięści"
+    213700170 => "$game_party.gain_item($data_armors[17], 1)", # "Różaniec"
+    213700171 => "$game_party.gain_item($data_armors[18], 1)", # "Karta Mądrości"
+    213700172 => "$game_party.gain_item($data_armors[19], 1)", # "Lewy but"
+    213700173 => "$game_party.gain_item($data_armors[20], 1)", # "Czarna dziura"
+    213700174 => "$game_party.gain_item($data_armors[21], 1)", # "Pistolet"
+    213700175 => "$game_party.gain_item($data_armors[22], 1)", # "Błyskawica"
+    213700176 => "$game_party.gain_item($data_armors[23], 1)", # "Głaz"
+    213700177 => "$game_party.gain_item($data_armors[24], 1)", # "Kupa gruzu"
+    213700178 => "$game_party.gain_item($data_armors[25], 1)", # "Toksyczna zbroja"
+    213700179 => "$game_party.gain_item($data_armors[26], 1)", # "Dopalacz"
+    213700180 => "$game_party.gain_item($data_armors[27], 1)", # "Kapelusz złodzieja"
+    213700181 => "$game_party.gain_item($data_armors[28], 1)", # "Odnawiacz zdrowia I"
     
-    756783182 => "$game_party.gain_item($data_armors[29], 1)", # Kamienna tarcza
-    756783183 => "$game_party.gain_item($data_armors[30], 1)", # Drewniany puklerz
-    756783184 => "$game_party.gain_item($data_armors[31], 1)", # Kamienny puklerz
-    756783185 => "$game_party.gain_item($data_armors[32], 1)", # Peleryna
-    756783186 => "$game_party.gain_item($data_armors[33], 1)", # Szata ciemności
-    756783187 => "$game_party.gain_item($data_armors[34], 1)", # Szaty księcia
-    756783188 => "$game_party.gain_item($data_armors[35], 1)", # Żelazne rękawice
-    756783189 => "$game_party.gain_item($data_armors[36], 1)", # Mistyczny kapelusz
-    756783190 => "$game_party.gain_item($data_armors[37], 1)", # Hełm rycerza
-    756783191 => "$game_party.gain_item($data_armors[38], 1)", # Królicze uszy
+    213700182 => "$game_party.gain_item($data_armors[29], 1)", # Kamienna tarcza
+    213700183 => "$game_party.gain_item($data_armors[30], 1)", # Drewniany puklerz
+    213700184 => "$game_party.gain_item($data_armors[31], 1)", # Kamienny puklerz
+    213700185 => "$game_party.gain_item($data_armors[32], 1)", # Peleryna
+    213700186 => "$game_party.gain_item($data_armors[33], 1)", # Szata ciemności
+    213700187 => "$game_party.gain_item($data_armors[34], 1)", # Szaty księcia
+    213700188 => "$game_party.gain_item($data_armors[35], 1)", # Żelazne rękawice
+    213700189 => "$game_party.gain_item($data_armors[36], 1)", # Mistyczny kapelusz
+    213700190 => "$game_party.gain_item($data_armors[37], 1)", # Hełm rycerza
+    213700191 => "$game_party.gain_item($data_armors[38], 1)", # Królicze uszy
     
-    756783192 => "$game_party.gain_item($data_armors[39], 1)", # "Srebrny miecz"
-    756783193 => "$game_party.gain_item($data_armors[40], 1)", # "Obieraczka"
-    756783194 => "$game_party.gain_item($data_armors[41], 1)", # "Mistyczne ostrze"
-    756783195 => "$game_party.gain_item($data_armors[42], 1)", # "Złoty łuk"
-    756783196 => "$game_party.gain_item($data_armors[43], 1)", # "Różdżka"
-    756783197 => "$game_party.gain_item($data_armors[44], 1)", # "Patyk"
-    756783198 => "$game_party.gain_item($data_armors[45], 1)", # "Zachód słońca"
-    756783199 => "$game_party.gain_item($data_armors[46], 1)", # "Gówniana tarcza"
-    756783200 => "$game_party.gain_item($data_armors[47], 1)", # "Kartka papieru"
-    756783201 => "$game_party.gain_item($data_armors[48], 1)", # "Narysowany pancerz"
-    756783202 => "$game_party.gain_item($data_armors[49], 1)", # "Gówniany zapach"
-    756783203 => "$game_party.gain_item($data_armors[50], 1)", # "Technologia"
-    756783204 => "$game_party.gain_item($data_armors[51], 1)", # "Złote pióro"
-    756783205 => "$game_party.gain_item($data_armors[52], 1)", # "Zajebisty but"
-    756783206 => "$game_party.gain_item($data_armors[53], 1)", # "Armor mocy"
-    756783207 => "$game_party.gain_item($data_armors[54], 1)", # "Karta Skilla I"
+    213700192 => "$game_party.gain_item($data_armors[39], 1)", # "Srebrny miecz"
+    213700193 => "$game_party.gain_item($data_armors[40], 1)", # "Obieraczka"
+    213700194 => "$game_party.gain_item($data_armors[41], 1)", # "Mistyczne ostrze"
+    213700195 => "$game_party.gain_item($data_armors[42], 1)", # "Złoty łuk"
+    213700196 => "$game_party.gain_item($data_armors[43], 1)", # "Różdżka"
+    213700197 => "$game_party.gain_item($data_armors[44], 1)", # "Patyk"
+    213700198 => "$game_party.gain_item($data_armors[45], 1)", # "Zachód słońca"
+    213700199 => "$game_party.gain_item($data_armors[46], 1)", # "Gówniana tarcza"
+    213700200 => "$game_party.gain_item($data_armors[47], 1)", # "Kartka papieru"
+    213700201 => "$game_party.gain_item($data_armors[48], 1)", # "Narysowany pancerz"
+    213700202 => "$game_party.gain_item($data_armors[49], 1)", # "Gówniany zapach"
+    213700203 => "$game_party.gain_item($data_armors[50], 1)", # "Technologia"
+    213700204 => "$game_party.gain_item($data_armors[51], 1)", # "Złote pióro"
+    213700205 => "$game_party.gain_item($data_armors[52], 1)", # "Zajebisty but"
+    213700206 => "$game_party.gain_item($data_armors[53], 1)", # "Armor mocy"
+    213700207 => "$game_party.gain_item($data_armors[54], 1)", # "Karta Skilla I"
     
-    756783208 => "$game_party.gain_item($data_armors[55], 1)", # Opaska bohatera
-    756783209 => "$game_party.gain_item($data_armors[56], 1)", # Smoczy amulet
-    756783210 => "$game_party.gain_item($data_armors[57], 1)", # Cegła
-    756783211 => "$game_party.gain_item($data_armors[58], 1)", # Magiczna tarcza
+    213700208 => "$game_party.gain_item($data_armors[55], 1)", # Opaska bohatera
+    213700209 => "$game_party.gain_item($data_armors[56], 1)", # Smoczy amulet
+    213700210 => "$game_party.gain_item($data_armors[57], 1)", # Cegła
+    213700211 => "$game_party.gain_item($data_armors[58], 1)", # Magiczna tarcza
     
-    756783212 => "$game_party.gain_item($data_armors[59], 1)", # "Jopek"
-    756783213 => "$game_party.gain_item($data_armors[60], 1)", # "Damka"
-    756783214 => "$game_party.gain_item($data_armors[61], 1)", # "Król"
-    756783215 => "$game_party.gain_item($data_armors[62], 1)", # "As"
-    756783216 => "$game_party.gain_item($data_armors[63], 1)", # "Dzida"
-    756783217 => "$game_party.gain_item($data_armors[64], 1)", # "Srebrna Dzida"
-    756783218 => "$game_party.gain_item($data_armors[65], 1)", # "Złota Dzida"
-    756783219 => "$game_party.gain_item($data_armors[66], 1)", # "Diamentowa Dzida"
-    756783220 => "$game_party.gain_item($data_armors[67], 1)", # "Kubek Zdrowia"
-    756783221 => "$game_party.gain_item($data_armors[68], 1)", # "Worek Zdrowia"
-    756783222 => "$game_party.gain_item($data_armors[69], 1)", # "Wiadro Zdrowia"
-    756783223 => "$game_party.gain_item($data_armors[70], 1)", # "Beczka zdrowia"
-    756783224 => "$game_party.gain_item($data_armors[71], 1)", # "Skóra Knaarena"
+    213700212 => "$game_party.gain_item($data_armors[59], 1)", # "Jopek"
+    213700213 => "$game_party.gain_item($data_armors[60], 1)", # "Damka"
+    213700214 => "$game_party.gain_item($data_armors[61], 1)", # "Król"
+    213700215 => "$game_party.gain_item($data_armors[62], 1)", # "As"
+    213700216 => "$game_party.gain_item($data_armors[63], 1)", # "Dzida"
+    213700217 => "$game_party.gain_item($data_armors[64], 1)", # "Srebrna Dzida"
+    213700218 => "$game_party.gain_item($data_armors[65], 1)", # "Złota Dzida"
+    213700219 => "$game_party.gain_item($data_armors[66], 1)", # "Diamentowa Dzida"
+    213700220 => "$game_party.gain_item($data_armors[67], 1)", # "Kubek Zdrowia"
+    213700221 => "$game_party.gain_item($data_armors[68], 1)", # "Worek Zdrowia"
+    213700222 => "$game_party.gain_item($data_armors[69], 1)", # "Wiadro Zdrowia"
+    213700223 => "$game_party.gain_item($data_armors[70], 1)", # "Beczka zdrowia"
+    213700224 => "$game_party.gain_item($data_armors[71], 1)", # "Skóra Knaarena"
     
-    756783225 => "$game_party.gain_item($data_armors[72], 1)", # Mityczna Bransoleta
-    756783226 => "$game_party.gain_item($data_armors[73], 1)", # Pokrywka
-    756783227 => "$game_party.gain_item($data_armors[74], 1)", # Kawał metalu
-    756783228 => "$game_party.gain_item($data_armors[75], 1)", # Skórzana czapa
-    756783229 => "$game_party.gain_item($data_armors[76], 1)", # Czapka z daszkiem
-    756783230 => "$game_party.gain_item($data_armors[77], 1)", # Plaster
-    756783231 => "$game_party.gain_item($data_armors[78], 1)", # Opaska na oko
-    756783232 => "$game_party.gain_item($data_armors[79], 1)", # Bocianie pióro
-    756783233 => "$game_party.gain_item($data_armors[80], 1)", # Czapa mroku
-    756783234 => "$game_party.gain_item($data_armors[81], 1)", # Naddźwiękowe buty
-    756783235 => "$game_party.gain_item($data_armors[82], 1)", # Czterolistna koniczyna
-    756783236 => "$game_party.gain_item($data_armors[83], 1)", # Teletarcza
-    756783237 => "$game_party.gain_item($data_armors[84], 1)", # Aureola
-    756783238 => "$game_party.gain_item($data_armors[85], 1)", # Amulet lodu
-    756783239 => "$game_party.gain_item($data_armors[86], 1)", # Amulet ognia
-    756783240 => "$game_party.gain_item($data_armors[87], 1)", # Amulet grzmotów
-    756783241 => "$game_party.gain_item($data_armors[88], 1)", # Srebrna tarcza
-    756783242 => "$game_party.gain_item($data_armors[89], 1)", # Pozłacana tarcza
-    756783243 => "$game_party.gain_item($data_armors[90], 1)", # Zbroja rycerza
-    756783244 => "$game_party.gain_item($data_armors[91], 1)", # Płynne szczęście
+    213700225 => "$game_party.gain_item($data_armors[72], 1)", # Mityczna Bransoleta
+    213700226 => "$game_party.gain_item($data_armors[73], 1)", # Pokrywka
+    213700227 => "$game_party.gain_item($data_armors[74], 1)", # Kawał metalu
+    213700228 => "$game_party.gain_item($data_armors[75], 1)", # Skórzana czapa
+    213700229 => "$game_party.gain_item($data_armors[76], 1)", # Czapka z daszkiem
+    213700230 => "$game_party.gain_item($data_armors[77], 1)", # Plaster
+    213700231 => "$game_party.gain_item($data_armors[78], 1)", # Opaska na oko
+    213700232 => "$game_party.gain_item($data_armors[79], 1)", # Bocianie pióro
+    213700233 => "$game_party.gain_item($data_armors[80], 1)", # Czapa mroku
+    213700234 => "$game_party.gain_item($data_armors[81], 1)", # Naddźwiękowe buty
+    213700235 => "$game_party.gain_item($data_armors[82], 1)", # Czterolistna koniczyna
+    213700236 => "$game_party.gain_item($data_armors[83], 1)", # Teletarcza
+    213700237 => "$game_party.gain_item($data_armors[84], 1)", # Aureola
+    213700238 => "$game_party.gain_item($data_armors[85], 1)", # Amulet lodu
+    213700239 => "$game_party.gain_item($data_armors[86], 1)", # Amulet ognia
+    213700240 => "$game_party.gain_item($data_armors[87], 1)", # Amulet grzmotów
+    213700241 => "$game_party.gain_item($data_armors[88], 1)", # Srebrna tarcza
+    213700242 => "$game_party.gain_item($data_armors[89], 1)", # Pozłacana tarcza
+    213700243 => "$game_party.gain_item($data_armors[90], 1)", # Zbroja rycerza
+    213700244 => "$game_party.gain_item($data_armors[91], 1)", # Płynne szczęście
     
-    756783245 => "$game_party.gain_item($data_armors[92], 1)", # "Petarda"
-    756783246 => "$game_party.gain_item($data_armors[93], 1)", # "Dynamit"
-    756783247 => "$game_party.gain_item($data_armors[94], 1)", # "Bomba"
-    756783248 => "$game_party.gain_item($data_armors[95], 1)", # "Atomówka"
-    756783249 => "$game_party.gain_item($data_armors[96], 1)", # "Patyczek"
-    756783250 => "$game_party.gain_item($data_armors[97], 1)", # "Laska"
-    756783251 => "$game_party.gain_item($data_armors[98], 1)", # "Złota laska"
-    756783252 => "$game_party.gain_item($data_armors[99], 1)", # "Mistyczna różdżka"
-    756783253 => "$game_party.gain_item($data_armors[100], 1)", # "Mieszaniec I"
-    756783254 => "$game_party.gain_item($data_armors[101], 1)", # "Koszulka"
-    756783255 => "$game_party.gain_item($data_armors[102], 1)", # "Koszula"
-    756783256 => "$game_party.gain_item($data_armors[103], 1)", # "Kurtka"
-    756783257 => "$game_party.gain_item($data_armors[104], 1)", # "Kombinezon"
-    756783258 => "$game_party.gain_item($data_armors[105], 1)", # "Karta Skilla II"
-    756783259 => "$game_party.gain_item($data_armors[106], 1)", # "Karta Skilla III"
-    756783260 => "$game_party.gain_item($data_armors[107], 1)", # "Karta Skilla IV"
-    756783261 => "$game_party.gain_item($data_armors[108], 1)", # "Wspomaganie kierownicy"
-    756783262 => "$game_party.gain_item($data_armors[109], 1)", # "Okulary przeciwsłoneczne"
-    756783263 => "$game_party.gain_item($data_armors[110], 1)", # "Respirator"
+    213700245 => "$game_party.gain_item($data_armors[92], 1)", # "Petarda"
+    213700246 => "$game_party.gain_item($data_armors[93], 1)", # "Dynamit"
+    213700247 => "$game_party.gain_item($data_armors[94], 1)", # "Bomba"
+    213700248 => "$game_party.gain_item($data_armors[95], 1)", # "Atomówka"
+    213700249 => "$game_party.gain_item($data_armors[96], 1)", # "Patyczek"
+    213700250 => "$game_party.gain_item($data_armors[97], 1)", # "Laska"
+    213700251 => "$game_party.gain_item($data_armors[98], 1)", # "Złota laska"
+    213700252 => "$game_party.gain_item($data_armors[99], 1)", # "Mistyczna różdżka"
+    213700253 => "$game_party.gain_item($data_armors[100], 1)", # "Mieszaniec I"
+    213700254 => "$game_party.gain_item($data_armors[101], 1)", # "Koszulka"
+    213700255 => "$game_party.gain_item($data_armors[102], 1)", # "Koszula"
+    213700256 => "$game_party.gain_item($data_armors[103], 1)", # "Kurtka"
+    213700257 => "$game_party.gain_item($data_armors[104], 1)", # "Kombinezon"
+    213700258 => "$game_party.gain_item($data_armors[105], 1)", # "Karta Skilla II"
+    213700259 => "$game_party.gain_item($data_armors[106], 1)", # "Karta Skilla III"
+    213700260 => "$game_party.gain_item($data_armors[107], 1)", # "Karta Skilla IV"
+    213700261 => "$game_party.gain_item($data_armors[108], 1)", # "Wspomaganie kierownicy"
+    213700262 => "$game_party.gain_item($data_armors[109], 1)", # "Okulary przeciwsłoneczne"
+    213700263 => "$game_party.gain_item($data_armors[110], 1)", # "Respirator"
     
-    756783264 => "$game_party.gain_item($data_armors[111], 1)", # Kocie uszy
-    756783265 => "$game_party.gain_item($data_armors[112], 1)", # Czerwona suknia
-    756783266 => "$game_party.gain_item($data_armors[113], 1)", # Płaszcz Gary'ego
-    756783267 => "$game_party.gain_item($data_armors[114], 1)", # Smoczy hełm
-    756783268 => "$game_party.gain_item($data_armors[115], 1)", # Smocza zbroja
-    756783269 => "$game_party.gain_item($data_armors[116], 1)", # Szaty najwyższego maga
-    756783270 => "$game_party.gain_item($data_armors[117], 1)", # Kamizelka kuloodporna
-    756783271 => "$game_party.gain_item($data_armors[118], 1)", # Złota wstążka
-    756783272 => "$game_party.gain_item($data_armors[119], 1)", # Maska karnawałowa
-    756783273 => "$game_party.gain_item($data_armors[120], 1)", # Tarcza policyjna
+    213700264 => "$game_party.gain_item($data_armors[111], 1)", # Kocie uszy
+    213700265 => "$game_party.gain_item($data_armors[112], 1)", # Czerwona suknia
+    213700266 => "$game_party.gain_item($data_armors[113], 1)", # Płaszcz Gary'ego
+    213700267 => "$game_party.gain_item($data_armors[114], 1)", # Smoczy hełm
+    213700268 => "$game_party.gain_item($data_armors[115], 1)", # Smocza zbroja
+    213700269 => "$game_party.gain_item($data_armors[116], 1)", # Szaty najwyższego maga
+    213700270 => "$game_party.gain_item($data_armors[117], 1)", # Kamizelka kuloodporna
+    213700271 => "$game_party.gain_item($data_armors[118], 1)", # Złota wstążka
+    213700272 => "$game_party.gain_item($data_armors[119], 1)", # Maska karnawałowa
+    213700273 => "$game_party.gain_item($data_armors[120], 1)", # Tarcza policyjna
     
-    756783274 => "$game_party.gain_item($data_armors[121], 1)", # "Brązowa wstążka"
-    756783275 => "$game_party.gain_item($data_armors[122], 1)", # "Srebrna wstążka"
-    756783276 => "$game_party.gain_item($data_armors[123], 1)", # "Złota wstążka"
-    756783277 => "$game_party.gain_item($data_armors[124], 1)", # "Legendarna wstążka"
-    756783278 => "$game_party.gain_item($data_armors[125], 1)", # "Brązowa tarcza"
-    756783279 => "$game_party.gain_item($data_armors[126], 1)", # "Srebrna tarcza"
-    756783280 => "$game_party.gain_item($data_armors[127], 1)", # "Złota tarcza"
-    756783281 => "$game_party.gain_item($data_armors[128], 1)", # "Legendarna tarcza"
-    756783282 => "$game_party.gain_item($data_armors[129], 1)", # "zBrOjA v 0.1"
-    756783283 => "$game_party.gain_item($data_armors[130], 1)", # "zBrOjA v 0.2"
-    756783284 => "$game_party.gain_item($data_armors[131], 1)", # "zBrOjA v 0.3"
-    756783285 => "$game_party.gain_item($data_armors[132], 1)", # "zBrOjA v 0.4"
-    756783286 => "$game_party.gain_item($data_armors[133], 1)", # "Miseczka"
-    756783287 => "$game_party.gain_item($data_armors[134], 1)", # "Miska"
-    756783288 => "$game_party.gain_item($data_armors[135], 1)", # "Micha"
-    756783289 => "$game_party.gain_item($data_armors[136], 1)", # "Wanna"
-    756783290 => "$game_party.gain_item($data_armors[137], 1)", # "Dyskietka"
-    756783291 => "$game_party.gain_item($data_armors[138], 1)", # "Płyta"
-    756783292 => "$game_party.gain_item($data_armors[139], 1)", # "Dysk"
-    756783293 => "$game_party.gain_item($data_armors[140], 1)", # "Chmura"
-    756783294 => "$game_party.gain_item($data_armors[141], 1)", # "Stojak"
-    756783295 => "$game_party.gain_item($data_armors[142], 1)", # "Statyw"
-    756783296 => "$game_party.gain_item($data_armors[143], 1)", # "Mikrofon"
-    756783297 => "$game_party.gain_item($data_armors[144], 1)", # "Megafon"
-    756783298 => "$game_party.gain_item($data_armors[146], 1)", # "Karta Skilla V"
-    756783299 => "$game_party.gain_item($data_armors[147], 1)", # "Pierścień śmierci"
+    213700274 => "$game_party.gain_item($data_armors[121], 1)", # "Brązowa wstążka"
+    213700275 => "$game_party.gain_item($data_armors[122], 1)", # "Srebrna wstążka"
+    213700276 => "$game_party.gain_item($data_armors[123], 1)", # "Złota wstążka"
+    213700277 => "$game_party.gain_item($data_armors[124], 1)", # "Legendarna wstążka"
+    213700278 => "$game_party.gain_item($data_armors[125], 1)", # "Brązowa tarcza"
+    213700279 => "$game_party.gain_item($data_armors[126], 1)", # "Srebrna tarcza"
+    213700280 => "$game_party.gain_item($data_armors[127], 1)", # "Złota tarcza"
+    213700281 => "$game_party.gain_item($data_armors[128], 1)", # "Legendarna tarcza"
+    213700282 => "$game_party.gain_item($data_armors[129], 1)", # "zBrOjA v 0.1"
+    213700283 => "$game_party.gain_item($data_armors[130], 1)", # "zBrOjA v 0.2"
+    213700284 => "$game_party.gain_item($data_armors[131], 1)", # "zBrOjA v 0.3"
+    213700285 => "$game_party.gain_item($data_armors[132], 1)", # "zBrOjA v 0.4"
+    213700286 => "$game_party.gain_item($data_armors[133], 1)", # "Miseczka"
+    213700287 => "$game_party.gain_item($data_armors[134], 1)", # "Miska"
+    213700288 => "$game_party.gain_item($data_armors[135], 1)", # "Micha"
+    213700289 => "$game_party.gain_item($data_armors[136], 1)", # "Wanna"
+    213700290 => "$game_party.gain_item($data_armors[137], 1)", # "Dyskietka"
+    213700291 => "$game_party.gain_item($data_armors[138], 1)", # "Płyta"
+    213700292 => "$game_party.gain_item($data_armors[139], 1)", # "Dysk"
+    213700293 => "$game_party.gain_item($data_armors[140], 1)", # "Chmura"
+    213700294 => "$game_party.gain_item($data_armors[141], 1)", # "Stojak"
+    213700295 => "$game_party.gain_item($data_armors[142], 1)", # "Statyw"
+    213700296 => "$game_party.gain_item($data_armors[143], 1)", # "Mikrofon"
+    213700297 => "$game_party.gain_item($data_armors[144], 1)", # "Megafon"
+    213700298 => "$game_party.gain_item($data_armors[146], 1)", # "Karta Skilla V"
+    213700299 => "$game_party.gain_item($data_armors[147], 1)", # "Pierścień śmierci"
     
-    756783300 => "$game_party.gain_item($data_armors[148], 1)", # Brelok żywiołu ognia
-    756783301 => "$game_party.gain_item($data_armors[149], 1)", # Brelok żywiołu lodu
-    756783302 => "$game_party.gain_item($data_armors[150], 1)", # Brelok żywiołu błyskawicy
-    756783303 => "$game_party.gain_item($data_armors[151], 1)", # Głowa Bendy'ego
-    756783304 => "$game_party.gain_item($data_armors[152], 1)", # "Armor do bicia kobiet" # 1 or 2 or 4
-    756783305 => "$game_party.gain_item($data_armors[153], 1)", # Brelok z Gacusiem
+    213700300 => "$game_party.gain_item($data_armors[148], 1)", # Brelok żywiołu ognia
+    213700301 => "$game_party.gain_item($data_armors[149], 1)", # Brelok żywiołu lodu
+    213700302 => "$game_party.gain_item($data_armors[150], 1)", # Brelok żywiołu błyskawicy
+    213700303 => "$game_party.gain_item($data_armors[151], 1)", # Głowa Bendy'ego
+    213700304 => "$game_party.gain_item($data_armors[152], 1)", # "Armor do bicia kobiet" # 1 or 2 or 4
+    213700305 => "$game_party.gain_item($data_armors[153], 1)", # Brelok z Gacusiem
     
     # Tem armor
-    756783306 => "$game_party.gain_item($data_armors[145], 1)", # Tem armor # will a be setting
+    213700306 => "$game_party.gain_item($data_armors[145], 1)", # Tem armor # will a be setting
 
     # Weapons
-    756783307 => "$game_party.gain_item($data_weapons[1], 1)",  # Zardzewiały miecz
-    756783308 => "$game_party.gain_item($data_weapons[2], 1)",  # Tępy nożyk
-    756783309 => "$game_party.gain_item($data_weapons[3], 1)",  # Drewniana różdżka
-    756783310 => "$game_party.gain_item($data_weapons[4], 1)",  # Używane rękawice
-    756783311 => "$game_party.gain_item($data_weapons[5], 1)",  # Ostry nożyk
-    756783312 => "$game_party.gain_item($data_weapons[6], 1)",  # Używany miecz
-    756783313 => "$game_party.gain_item($data_weapons[7], 1)",  # Kradziona różdżka
-    756783314 => "$game_party.gain_item($data_weapons[8], 1)",  # Rękawice
-    756783315 => "$game_party.gain_item($data_weapons[9], 1)",  # Lodołamacz
-    756783316 => "$game_party.gain_item($data_weapons[10], 1)", # Lekki nóż
-    756783317 => "$game_party.gain_item($data_weapons[11], 1)", # Rękawiczki
-    756783318 => "$game_party.gain_item($data_weapons[12], 1)", # Patyk do hipnozy
-    756783319 => "$game_party.gain_item($data_weapons[13], 1)", # Maczuga
-    756783320 => "$game_party.gain_item($data_weapons[14], 1)", # Pochodnia
-    756783321 => "$game_party.gain_item($data_weapons[15], 1)", # Ostrze ciemności
-    756783322 => "$game_party.gain_item($data_weapons[16], 1)", # Zatrute ostrze
-    756783323 => "$game_party.gain_item($data_weapons[17], 1)", # Wodna różdżka
-    756783324 => "$game_party.gain_item($data_weapons[18], 1)", # Laska mocy
-    756783325 => "$game_party.gain_item($data_weapons[19], 1)", # Magiczne rękawice
-    756783326 => "$game_party.gain_item($data_weapons[20], 1)", # Antyczne rękawiczki
-    756783327 => "$game_party.gain_item($data_weapons[21], 1)", # Halabarda
-    756783328 => "$game_party.gain_item($data_weapons[22], 1)", # Trujący miecz
-    756783329 => "$game_party.gain_item($data_weapons[23], 1)", # Zestaw Rycerza
-    756783330 => "$game_party.gain_item($data_weapons[24], 1)", # Srebrny miecz
-    756783331 => "$game_party.gain_item($data_weapons[25], 1)", # Różdżka grzmotu
-    756783332 => "$game_party.gain_item($data_weapons[26], 1)", # Kij Wielkiego Maga
-    756783333 => "$game_party.gain_item($data_weapons[27], 1)", # PARALIZATOR
-    756783334 => "$game_party.gain_item($data_weapons[28], 1)", # Wyważona laska
-    756783335 => "$game_party.gain_item($data_weapons[29], 1)", # Skórzane rękawice
-    756783336 => "$game_party.gain_item($data_weapons[30], 1)", # Dziurawe Rękawiczki
-    756783337 => "$game_party.gain_item($data_weapons[31], 1)", # Kastet
-    756783338 => "$game_party.gain_item($data_weapons[32], 1)", # Pozłacane Rękawice
-    756783339 => "$game_party.gain_item($data_weapons[33], 1)", # Srebrny nóż
-    756783340 => "$game_party.gain_item($data_weapons[34], 1)", # Wodny nożyk
-    756783341 => "$game_party.gain_item($data_weapons[35], 1)", # Noże do rzucania
-    756783342 => "$game_party.gain_item($data_weapons[36], 1)", # Ostrze ognia
-    756783343 => "$game_party.gain_item($data_weapons[37], 1)", # Pędzel Guerteny
-    756783344 => "$game_party.gain_item($data_weapons[38], 1)", # Nóż malarski
-    756783345 => "$game_party.gain_item($data_weapons[39], 1)", # Szabla
-    756783346 => "$game_party.gain_item($data_weapons[40], 1)", # Ostrze barbarzyńcy
-    756783347 => "$game_party.gain_item($data_weapons[41], 1)", # Kosa śmierci
-    756783348 => "$game_party.gain_item($data_weapons[42], 1)", # Rubinowa różdżka
-    756783349 => "$game_party.gain_item($data_weapons[43], 1)", # Trójząb
-    756783350 => "$game_party.gain_item($data_weapons[44], 1)", # Berło śmierci
-    756783351 => "$game_party.gain_item($data_weapons[45], 1)", # Rękawice kuchenne
-    756783352 => "$game_party.gain_item($data_weapons[46], 1)", # Rękawice z brązu
-    756783353 => "$game_party.gain_item($data_weapons[47], 1)", # Rękawice śmierci
-    756783354 => "$game_party.gain_item($data_weapons[48], 1)", # Tasak
-    756783355 => "$game_party.gain_item($data_weapons[49], 1)", # Ostrze mrozu
-    756783356 => "$game_party.gain_item($data_weapons[50], 1)", # Klinga śmierci
+    213700307 => "$game_party.gain_item($data_weapons[1], 1)",  # Zardzewiały miecz
+    213700308 => "$game_party.gain_item($data_weapons[2], 1)",  # Tępy nożyk
+    213700309 => "$game_party.gain_item($data_weapons[3], 1)",  # Drewniana różdżka
+    213700310 => "$game_party.gain_item($data_weapons[4], 1)",  # Używane rękawice
+    213700311 => "$game_party.gain_item($data_weapons[5], 1)",  # Ostry nożyk
+    213700312 => "$game_party.gain_item($data_weapons[6], 1)",  # Używany miecz
+    213700313 => "$game_party.gain_item($data_weapons[7], 1)",  # Kradziona różdżka
+    213700314 => "$game_party.gain_item($data_weapons[8], 1)",  # Rękawice
+    213700315 => "$game_party.gain_item($data_weapons[9], 1)",  # Lodołamacz
+    213700316 => "$game_party.gain_item($data_weapons[10], 1)", # Lekki nóż
+    213700317 => "$game_party.gain_item($data_weapons[11], 1)", # Rękawiczki
+    213700318 => "$game_party.gain_item($data_weapons[12], 1)", # Patyk do hipnozy
+    213700319 => "$game_party.gain_item($data_weapons[13], 1)", # Maczuga
+    213700320 => "$game_party.gain_item($data_weapons[14], 1)", # Pochodnia
+    213700321 => "$game_party.gain_item($data_weapons[15], 1)", # Ostrze ciemności
+    213700322 => "$game_party.gain_item($data_weapons[16], 1)", # Zatrute ostrze
+    213700323 => "$game_party.gain_item($data_weapons[17], 1)", # Wodna różdżka
+    213700324 => "$game_party.gain_item($data_weapons[18], 1)", # Laska mocy
+    213700325 => "$game_party.gain_item($data_weapons[19], 1)", # Magiczne rękawice
+    213700326 => "$game_party.gain_item($data_weapons[20], 1)", # Antyczne rękawiczki
+    213700327 => "$game_party.gain_item($data_weapons[21], 1)", # Halabarda
+    213700328 => "$game_party.gain_item($data_weapons[22], 1)", # Trujący miecz
+    213700329 => "$game_party.gain_item($data_weapons[23], 1)", # Zestaw Rycerza
+    213700330 => "$game_party.gain_item($data_weapons[24], 1)", # Srebrny miecz
+    213700331 => "$game_party.gain_item($data_weapons[25], 1)", # Różdżka grzmotu
+    213700332 => "$game_party.gain_item($data_weapons[26], 1)", # Kij Wielkiego Maga
+    213700333 => "$game_party.gain_item($data_weapons[27], 1)", # PARALIZATOR
+    213700334 => "$game_party.gain_item($data_weapons[28], 1)", # Wyważona laska
+    213700335 => "$game_party.gain_item($data_weapons[29], 1)", # Skórzane rękawice
+    213700336 => "$game_party.gain_item($data_weapons[30], 1)", # Dziurawe Rękawiczki
+    213700337 => "$game_party.gain_item($data_weapons[31], 1)", # Kastet
+    213700338 => "$game_party.gain_item($data_weapons[32], 1)", # Pozłacane Rękawice
+    213700339 => "$game_party.gain_item($data_weapons[33], 1)", # Srebrny nóż
+    213700340 => "$game_party.gain_item($data_weapons[34], 1)", # Wodny nożyk
+    213700341 => "$game_party.gain_item($data_weapons[35], 1)", # Noże do rzucania
+    213700342 => "$game_party.gain_item($data_weapons[36], 1)", # Ostrze ognia
+    213700343 => "$game_party.gain_item($data_weapons[37], 1)", # Pędzel Guerteny
+    213700344 => "$game_party.gain_item($data_weapons[38], 1)", # Nóż malarski
+    213700345 => "$game_party.gain_item($data_weapons[39], 1)", # Szabla
+    213700346 => "$game_party.gain_item($data_weapons[40], 1)", # Ostrze barbarzyńcy
+    213700347 => "$game_party.gain_item($data_weapons[41], 1)", # Kosa śmierci
+    213700348 => "$game_party.gain_item($data_weapons[42], 1)", # Rubinowa różdżka
+    213700349 => "$game_party.gain_item($data_weapons[43], 1)", # Trójząb
+    213700350 => "$game_party.gain_item($data_weapons[44], 1)", # Berło śmierci
+    213700351 => "$game_party.gain_item($data_weapons[45], 1)", # Rękawice kuchenne
+    213700352 => "$game_party.gain_item($data_weapons[46], 1)", # Rękawice z brązu
+    213700353 => "$game_party.gain_item($data_weapons[47], 1)", # Rękawice śmierci
+    213700354 => "$game_party.gain_item($data_weapons[48], 1)", # Tasak
+    213700355 => "$game_party.gain_item($data_weapons[49], 1)", # Ostrze mrozu
+    213700356 => "$game_party.gain_item($data_weapons[50], 1)", # Klinga śmierci
     # Dark Eleven
-    756783357 => "$game_party.gain_item($data_weapons[51], 1)", # Miecz Dark Elevena
-    756783358 => "$game_party.gain_item($data_weapons[52], 1)", # Ostrze Dark Elevena
-    756783359 => "$game_party.gain_item($data_weapons[53], 1)", # Laska Dark Elevena
-    756783360 => "$game_party.gain_item($data_weapons[54], 1)", # Kastet Dark Elevena
+    213700357 => "$game_party.gain_item($data_weapons[51], 1)", # Miecz Dark Elevena
+    213700358 => "$game_party.gain_item($data_weapons[52], 1)", # Ostrze Dark Elevena
+    213700359 => "$game_party.gain_item($data_weapons[53], 1)", # Laska Dark Elevena
+    213700360 => "$game_party.gain_item($data_weapons[54], 1)", # Kastet Dark Elevena
     
     # Variables & Switches
     # Temmie
-    756783361 => "$game_variables[89] += 1",
-    756783362 => "$game_variables[89] += 1",
-    756783363 => "$game_variables[89] += 1",
-    756783364 => "$game_variables[89] += 1",
-    756783365 => "$game_variables[89] += 1",
-    756783366 => "$game_variables[89] += 1",
-    756783367 => "$game_variables[89] += 1",
-    756783368 => "$game_variables[89] += 1",
-    756783369 => "$game_variables[89] += 1",
-    756783370 => "$game_variables[89] += 1",
+    213700361 => "$game_variables[89] += 1",
+    213700362 => "$game_variables[89] += 1",
+    213700363 => "$game_variables[89] += 1",
+    213700364 => "$game_variables[89] += 1",
+    213700365 => "$game_variables[89] += 1",
+    213700366 => "$game_variables[89] += 1",
+    213700367 => "$game_variables[89] += 1",
+    213700368 => "$game_variables[89] += 1",
+    213700369 => "$game_variables[89] += 1",
+    213700370 => "$game_variables[89] += 1",
     # Doors
-    756783371 => "$game_switches[142] = true", # FNaF
-    756783372 => "$game_switches[292] = true", # Sklep pierwsze miasto
+    213700371 => "$game_switches[142] = true", # FNaF
+    213700372 => "$game_switches[292] = true", # Sklep pierwsze miasto
     
 
 
     # Ładunki mocy # Idk how many 
-    75678600 => "$game_variables[87] += 1",
+    213700600 => "$game_variables[87] += 1",
     # 75678601 => "$game_variables[87] += 1",
     # 75678602 => "$game_variables[87] += 1",
     # 75678603 => "$game_variables[87] += 1",
@@ -574,12 +574,12 @@
 
 
     # Other Items
-    #756783071 => "$game_party.gain_item($data_items[100], 1)",# Diamentowy pierścionek
-    #756783071 => "$game_party.gain_item($data_items[11], 1)", # Krótkofalówka(Only in battle) i think it's not needed
-    #756783071 => "$game_party.gain_item($data_items[17], 5)", # Diament
-    #756783071 => "$game_party.gain_item($data_items[19], 2)", # Dusza
-    #756783071 => "$game_party.gain_item($data_items[102], 1)",  # Neskot
-    #756783151 => "$game_party.gain_item($data_items[2], 1)",  # Telefon i think it is better to not incluude it
+    #213700071 => "$game_party.gain_item($data_items[100], 1)",# Diamentowy pierścionek
+    #213700071 => "$game_party.gain_item($data_items[11], 1)", # Krótkofalówka(Only in battle) i think it's not needed
+    #213700071 => "$game_party.gain_item($data_items[17], 5)", # Diament
+    #213700071 => "$game_party.gain_item($data_items[19], 2)", # Dusza
+    #213700071 => "$game_party.gain_item($data_items[102], 1)",  # Neskot
+    #213700151 => "$game_party.gain_item($data_items[2], 1)",  # Telefon i think it is better to not incluude it
 
 
     
