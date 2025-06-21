@@ -52,7 +52,8 @@ def create_regions(multiworld: MultiWorld, player: int):
         #"Droga Zachodnia(1)":                           KronikiElevenaRegionData([]),
         #"Droga Zachodnia(2)":                           KronikiElevenaRegionData([]),
         "Droga połódniowa":                             KronikiElevenaRegionData(["Droga Południowa - Walka",
-                                                                                  "Sekret na prawo - Złoty Muchomor"]),
+                                                                                  "Sekret na prawo - Złoty Muchomor",
+                                                                                  "Dom Teda - Wyposażenie"]),
         
         "Droga połódniowa cd.":                         KronikiElevenaRegionData(["Droga Południowa cd. Dom2 - Temmie",
                                                                                   "Droga Południowa cd. Dom2 - Armor"]),
@@ -68,8 +69,8 @@ def create_regions(multiworld: MultiWorld, player: int):
                                                                                         "Jaskinia północ - Skrzynni2",
                                                                                         "Jaskinia północ - Klucz",
                                                                                         "Jaskinia północ - Robopirat",
-                                                                                        "Jaskinia Left - Tajemnicza część",
                                                                                         "Jaskinia treasure chamber - Diament"]),
+        "Jaskinia Left":                           KronikiElevenaRegionData(["Jaskinia Left - Tajemnicza część"]),
         
         "Droga zachodnia(1)":                           KronikiElevenaRegionData(["Droga zachodnia 1 - Walka"]),
         "Droga zachodnia(2)":                           KronikiElevenaRegionData([]),
