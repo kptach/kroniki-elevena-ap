@@ -352,6 +352,7 @@ def set_rules(multiworld: MultiWorld, player: int):
     connect_regions(multiworld, player, "Droga połódniowa cd.", "Zakazane bezdroża")
     connect_regions(multiworld, player, "Zakazane bezdroża", "Jaskinia złych snów")
     connect_regions(multiworld, player, "Zakazane bezdroża", "Tęczowa Kraina")
+    connect_regions(multiworld, player, "Jaskinia złych snów", "Jaskinia Left")
     
     
     connect_regions(multiworld, player, "Pierwsze miasto", "Droga zachodnia(1)")

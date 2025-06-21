@@ -26,7 +26,7 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Pierwsze miasto Dom4 - Skrzynia":                                    KronikiElevenaLocationData("General",   213700_001),
     "Pierwsze miasto Wodospad - Złoty Muchomor":                          KronikiElevenaLocationData("Quests",   213700_002),
     "Cyberświat - parnter":                                               KronikiElevenaLocationData("Quests",   213700_003),
-    "Dom Elevena (gra) - karty":                                         KronikiElevenaLocationData("General",   213700_004),
+    "Dom Elevena (gra) - karty":                                          KronikiElevenaLocationData("General",   213700_004),
 
     "Dom Elevena - List":                                                 KronikiElevenaLocationData("Quests",   213700_005),
     
