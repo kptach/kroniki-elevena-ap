@@ -351,6 +351,10 @@ def set_rules(multiworld: MultiWorld, player: int):
     connect_regions(multiworld, player, "Droga połódniowa", "Droga połódniowa cd.")
     
     
+    
+    connect_regions(multiworld, player, "Droga połódniowa cd.", "Tęczowa Kraina")
+    
+    
     connect_regions(multiworld, player, "Pierwsze miasto", "Droga zachodnia(1)")
     connect_regions(multiworld, player, "Droga zachodnia(1)", "Droga zachodnia(2)")
     connect_regions(multiworld, player, "Droga zachodnia(2)", "Droga zachodnia(2) Nawiedzone domostwo")
