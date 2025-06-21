@@ -34,7 +34,11 @@ class Kontroler(Toggle): #TODO
 
 kroniki_elevena_options: Dict[str, type(Option)] = { 
     "kontroler": Kontroler,
-#    "interior_walls": InteriorWalls,
-#    "levelsanity": Levelsanity
+#    "telefon": Telefon,
+#    "krutkofalowka": Krutkofalowka,
+#    "elevensanity": Elevensanity # gives checks from levels of eleven
+#    "papyrussanity": Papyrussanity # gives checks from levels of papyrus
+#    "Sereksanity": Papyrussanity # gives checks from levels of papyrus
 #    "death_link": DeathLink
+#    "trap_link": TrapLink
 }
