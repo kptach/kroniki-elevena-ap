@@ -83,8 +83,8 @@ item_table: Dict[str, KronikiElevenaItemData] = {
     "Papyrus":                   KronikiElevenaItemData("Party",      213700_054, ItemClassification.progression),
     
     # Key Items
-    "Kontroler":                 KronikiElevenaItemData("Quest",         213700_055, ItemClassification.progression),
-    "Krótkofalówka":             KronikiElevenaItemData("Quest",         213700_056, ItemClassification.progression),
+    "Kontroler":                 KronikiElevenaItemData("Quest",         213700_055, ItemClassification.progression_skip_balancing),
+    "Krótkofalówka":             KronikiElevenaItemData("Quest",         213700_056, ItemClassification.progression_skip_balancing),
     "Siekiera":                  KronikiElevenaItemData("Quest",         213700_057, ItemClassification.progression),
     "Młotek":                    KronikiElevenaItemData("Quest",         213700_058, ItemClassification.progression),
     "Karta klucz I":             KronikiElevenaItemData("Quest",         213700_059, ItemClassification.progression),
@@ -437,6 +437,9 @@ item_table: Dict[str, KronikiElevenaItemData] = {
     # Doors
     "FNaF Door(Zachód)":            KronikiElevenaItemData("Quest",        213700_371, ItemClassification.progression, 1),
     "Sklep Door(pierwsze miasto)":  KronikiElevenaItemData("Quest",        213700_372, ItemClassification.progression, 1),
+    
+    # Phone
+    "Telefon":                      KronikiElevenaItemData("Quest",        213700_373, ItemClassification.progression_skip_balancing, 1),
 
 
     # More Fillers: 100$, 400$, 1000$, Insta Heals

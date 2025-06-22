@@ -560,10 +560,7 @@
     # 75678609 => "$game_variables[87] += 1",
     # 75678610 => "$game_variables[87] += 1",
 
-
-
-
-
+    213700373 => "$game_party.gain_item($data_items[2], 1)",  # Telefon
 
 
 
@@ -576,10 +573,9 @@
     # Other Items
     #213700071 => "$game_party.gain_item($data_items[100], 1)",# Diamentowy pierścionek
     #213700071 => "$game_party.gain_item($data_items[11], 1)", # Krótkofalówka(Only in battle) i think it's not needed
-    #213700071 => "$game_party.gain_item($data_items[17], 5)", # Diament
+
     #213700071 => "$game_party.gain_item($data_items[19], 2)", # Dusza
-    #213700071 => "$game_party.gain_item($data_items[102], 1)",  # Neskot
-    #213700151 => "$game_party.gain_item($data_items[2], 1)",  # Telefon i think it is better to not incluude it
+
 
 
     
