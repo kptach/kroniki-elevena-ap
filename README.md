@@ -1,6 +1,5 @@
 # README isn't finished yet.
-I have less time to program this project. I'm cutently preparing for my final exam, witch will be in may. I'm also working in my spare time to get money for a driving license.
-I'll have more free time in june.
+I now have more time to program this, but this project won't be my priority.
 
 
 Kroniki Elevena is a Polish RPG game.
