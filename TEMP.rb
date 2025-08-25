@@ -1,4 +1,4 @@
-$archipelago.locations.check(756783000)
+$archipelago.locations.check(213700000)
 Znalazłeś \fb\i[623] \c[1]Przedmiot Archipelago\c[0]\fr!
 Znalazłeś \fb\c[21]Złoty \i[623] \c[1]Przedmiot Archipelago\c[0]\fr!
 
@@ -20,7 +20,8 @@ Super! Proszę, oto obiecany przeze mnie
 
 \c[28]Znalezione Temmie: \v[89] / 10
 
-$archipelago.locations.check(756783040)
+$archipelago.locations.check(213700040)
 
 
 Otrzymałeś \fb\i[623] \c[1]Przedmiot Archipelago\c[0]\fr!
+Za wygranie walki zdobyłeś \fb\i[623] \c[1]Przedmiot Archipelago\c[0]\fr!

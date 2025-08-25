@@ -262,7 +262,7 @@
     213700120 => "$game_party.gain_item($data_items[101], 1)", # Babeczka
 
     # Key Items 2
-    213700121 => "$game_party.gain_item($data_items[36], 1)", # Jad Venesosa Planta #idk how many
+    213700121 => "$game_party.gain_item($data_items[36], 1); $game_switches[58] = true", # Jad Venesosa Planta
 
     # Key Items(Dwienków)
     213700122 => "$game_party.gain_item($data_items[37], 1)", # Świeczka

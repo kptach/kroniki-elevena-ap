@@ -43,6 +43,11 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Dom Elevena (gra) - Jedzenie":                                       KronikiElevenaLocationData("General",   213700_016),
     "Droga Południowa - Walka":                                           KronikiElevenaLocationData("General",   213700_017), # Droga Południowa
 
+    "Nieskończony las - Temmie":                                       KronikiElevenaLocationData("General",   213700_018),
+    "Nieskończony las - Skrzynia":                                       KronikiElevenaLocationData("General",   213700_019),
+    "Nieskończony las - Jad":                                       KronikiElevenaLocationData("Quests",   213700_020),
+
+
     
     "Jaskinia zagłady - Skrzynia3":                                       KronikiElevenaLocationData("General",   213700_026),
     
