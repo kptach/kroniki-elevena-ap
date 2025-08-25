@@ -81,6 +81,10 @@ def create_regions(multiworld: MultiWorld, player: int):
         "Droga zachodnia(2) Lokalizacja FNAF":          KronikiElevenaRegionData(["Lokalizacja FNAF - Pomidor",
                                                                                   "Lokalizacja FNAF - Doggo"]),
         
+        "Nieskończony las":                             KronikiElevenaRegionData(["Nieskończony las - Temmie",
+                                                                                  "Nieskończony las - Skrzynia",
+                                                                                    "Nieskończony las - Jad"])
+        
         
 
         # "Pierwsze miasto Dom6":                         KronikiElevenaRegionData([]),
