@@ -83,7 +83,10 @@ def create_regions(multiworld: MultiWorld, player: int):
         
         "Nieskończony las":                             KronikiElevenaRegionData(["Nieskończony las - Temmie",
                                                                                   "Nieskończony las - Skrzynia",
-                                                                                    "Nieskończony las - Jad"])
+                                                                                    "Nieskończony las - Jad"]),
+        "Sekret góra":                              KronikiElevenaRegionData(["Sekret góra - Info o diamencie",
+                                                                                  "Sekret góra - Skrzynia"]),
+        "Droga dół":                                KronikiElevenaRegionData(["Droga dół - Walka"]),
         
         
 

@@ -46,6 +46,9 @@ location_table: Dict[str, KronikiElevenaLocationData] = {
     "Nieskończony las - Temmie":                                       KronikiElevenaLocationData("General",   213700_018),
     "Nieskończony las - Skrzynia":                                       KronikiElevenaLocationData("General",   213700_019),
     "Nieskończony las - Jad":                                       KronikiElevenaLocationData("Quests",   213700_020),
+    "Sekret góra - Info o diamencie":                                       KronikiElevenaLocationData("Quests",   213700_021), # to change later
+    "Sekret góra - Skrzynia":                                       KronikiElevenaLocationData("General",   213700_022),
+    "Droga dół - Walka":                                                KronikiElevenaLocationData("General",   213700_023),
 
 
     

@@ -10,13 +10,10 @@ def make_apworld(dir, world_name):
     zip = os.path.join(subdir, world_name + ".zip")
     apworld = os.path.join(subdir, world_name + ".apworld")
     os.replace(zip, apworld)
+    return apworld
 
 def make_and_add_apworld(dir, world_name, archipelago_custom_worlds_path=ARCHIPELAGO_PATH):
-    subdir = os.path.join(dir, "..")
-    shutil.make_archive(world_name, 'zip', dir)
-    zip = os.path.join(subdir, world_name + ".zip")
-    apworld = os.path.join(subdir, world_name + ".apworld")
-    os.replace(zip, apworld)
+    apworld = make_apworld(dir, world_name)
     os.replace(apworld, os.path.join(archipelago_custom_worlds_path, f"{world_name}.apworld"))
 
 def main():
