@@ -155,7 +155,7 @@ item_table: Dict[str, KronikiElevenaItemData] = {
     "Babeczka":                  KronikiElevenaItemData("Filler",        213700_120, weight=2, max_quantity=5),
     
     # Key Items 2
-    "Jad Venesosa Planta":       KronikiElevenaItemData("Quest",        213700_121, ItemClassification.progression,       1), # I will leater change number if nessesary
+    "Jad Venesosa Planta":       KronikiElevenaItemData("Quest",        213700_121, ItemClassification.progression),
     
     # Key Items(Dwienków)
     "Świeczka":                  KronikiElevenaItemData("Quest",        213700_122, ItemClassification.progression),
